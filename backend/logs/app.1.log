@@ -1,0 +1,729 @@
+{"level":30,"time":1771146812487,"pid":24412,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771149182380,"pid":19740,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":40,"time":1771149205549,"pid":19740,"hostname":"Rezus-II","msg":"Login attempt failed - no user found: john@gmail.com"}
+{"level":50,"time":1771149205549,"pid":19740,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771149210834,"pid":19740,"hostname":"Rezus-II","msg":"Login attempt failed - no user found: john@gmail.com"}
+{"level":50,"time":1771149210835,"pid":19740,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771149402416,"pid":18876,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771149412112,"pid":18876,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771149412113,"pid":18876,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":50,"time":1771149485074,"pid":18876,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":30,"time":1771149495540,"pid":18876,"hostname":"Rezus-II","msg":"User registered successfully: new@gmail.com"}
+{"level":30,"time":1771149495540,"pid":18876,"hostname":"Rezus-II","msg":"User registered successfully: new@gmail.com"}
+{"level":30,"time":1771149522967,"pid":18876,"hostname":"Rezus-II","msg":"User authenticated: ID=2, Role=user"}
+{"level":30,"time":1771149531966,"pid":18876,"hostname":"Rezus-II","msg":"User authenticated: ID=2, Role=user"}
+{"level":30,"time":1771153965643,"pid":17240,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771153967660,"pid":11516,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771153972070,"pid":7460,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771154001076,"pid":19716,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771154004617,"pid":23524,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771154006336,"pid":23996,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771154008002,"pid":22368,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771154058962,"pid":23660,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771154115577,"pid":23660,"hostname":"Rezus-II","msg":"user logged in successfully: new@gmail.com"}
+{"level":30,"time":1771154115580,"pid":23660,"hostname":"Rezus-II","msg":"user logged in successfully: new@gmail.com"}
+{"level":30,"time":1771154209959,"pid":23660,"hostname":"Rezus-II","msg":"User authenticated: ID=3, Role=user"}
+{"level":30,"time":1771154273204,"pid":23660,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1771154273204,"pid":23660,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1771154353627,"pid":23660,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771154354461,"pid":23660,"hostname":"Rezus-II","msg":"2 books added successfully"}
+{"level":30,"time":1771154480288,"pid":23660,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771154481111,"pid":23660,"hostname":"Rezus-II","msg":"Book 1 updated successfully"}
+{"level":30,"time":1771154486611,"pid":23660,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771154486744,"pid":23660,"hostname":"Rezus-II","msg":"Book 1 updated successfully"}
+{"level":30,"time":1771154489007,"pid":23660,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771154489148,"pid":23660,"hostname":"Rezus-II","msg":"Book 1 updated successfully"}
+{"level":30,"time":1771154535126,"pid":23660,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":50,"time":1771154535743,"pid":23660,"hostname":"Rezus-II","msg":"Error in editBook controller:"}
+{"level":30,"time":1771154542328,"pid":23660,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":50,"time":1771154542395,"pid":23660,"hostname":"Rezus-II","msg":"Error in editBook controller:"}
+{"level":30,"time":1771154569039,"pid":23660,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771154569871,"pid":23660,"hostname":"Rezus-II","msg":"Book 3 updated successfully"}
+{"level":30,"time":1771154638906,"pid":23660,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771154639558,"pid":23660,"hostname":"Rezus-II","msg":"Book 3 deleted successfully"}
+{"level":30,"time":1771154648440,"pid":23660,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":50,"time":1771154648510,"pid":23660,"hostname":"Rezus-II","msg":"Error in deleteBook controller:"}
+{"level":30,"time":1771154977855,"pid":23660,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771155061977,"pid":23660,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771155067659,"pid":23660,"hostname":"Rezus-II","msg":"1 images uploaded successfully"}
+{"level":30,"time":1771427442308,"pid":20940,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":40,"time":1771427446233,"pid":20940,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":50,"time":1771427621126,"pid":20940,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":50,"time":1771427632582,"pid":20940,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771427641610,"pid":20940,"hostname":"Rezus-II","msg":"Login attempt failed - no admin found: admin@gmail.com"}
+{"level":50,"time":1771427641610,"pid":20940,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771427667358,"pid":20940,"hostname":"Rezus-II","msg":"Login attempt failed - no admin found: admin@gmail.com"}
+{"level":50,"time":1771427667358,"pid":20940,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771427727054,"pid":20940,"hostname":"Rezus-II","msg":"Login attempt failed - no admin found: admin@Bookverse.com"}
+{"level":50,"time":1771427727054,"pid":20940,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771427744790,"pid":20940,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: admin@bookverse.com"}
+{"level":50,"time":1771427744790,"pid":20940,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771427755702,"pid":20940,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1771427755703,"pid":20940,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":40,"time":1771427947283,"pid":20940,"hostname":"Rezus-II","msg":"Login attempt failed - no admin found: admin@ookverse.com"}
+{"level":50,"time":1771427947283,"pid":20940,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771428003866,"pid":25204,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771428010605,"pid":13320,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771428011800,"pid":11584,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771428020307,"pid":20808,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":40,"time":1771428025524,"pid":20808,"hostname":"Rezus-II","msg":"Login attempt failed - no admin found: admin@ookverse.com"}
+{"level":50,"time":1771428025524,"pid":20808,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771428039785,"pid":20808,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: admin@bookverse.com"}
+{"level":50,"time":1771428039785,"pid":20808,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":50,"time":1771428045338,"pid":20808,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771428070331,"pid":20808,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771428073907,"pid":20808,"hostname":"Rezus-II","msg":"1 images uploaded successfully"}
+{"level":30,"time":1771428125671,"pid":4700,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771428128709,"pid":22740,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771428334257,"pid":21100,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771430404512,"pid":5820,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771430411321,"pid":5820,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771430496986,"pid":5820,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771430619592,"pid":23224,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771430622462,"pid":23224,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":50,"time":1771430623354,"pid":23224,"hostname":"Rezus-II","msg":"Error inserting book Atomic Habits"}
+{"level":50,"time":1771430623972,"pid":23224,"hostname":"Rezus-II","msg":"Error inserting book Tools of Titans"}
+{"level":50,"time":1771430624635,"pid":23224,"hostname":"Rezus-II","msg":"Error inserting book Make Your Bed"}
+{"level":50,"time":1771430625220,"pid":23224,"hostname":"Rezus-II","msg":"Error inserting book The Subtle Art of Not Giving a F*ck"}
+{"level":50,"time":1771430625861,"pid":23224,"hostname":"Rezus-II","msg":"Error inserting book Born a Crime"}
+{"level":30,"time":1771430625862,"pid":23224,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1771430817997,"pid":25036,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771430819867,"pid":25036,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":50,"time":1771430820698,"pid":25036,"hostname":"Rezus-II","msg":"Error inserting book Atomic Habits"}
+{"level":50,"time":1771430821376,"pid":25036,"hostname":"Rezus-II","msg":"Error inserting book Tools of Titans"}
+{"level":50,"time":1771430822169,"pid":25036,"hostname":"Rezus-II","msg":"Error inserting book Make Your Bed"}
+{"level":50,"time":1771430822808,"pid":25036,"hostname":"Rezus-II","msg":"Error inserting book The Subtle Art of Not Giving a F*ck"}
+{"level":50,"time":1771430823509,"pid":25036,"hostname":"Rezus-II","msg":"Error inserting book Born a Crime"}
+{"level":30,"time":1771430823510,"pid":25036,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1771430940761,"pid":5720,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771430949394,"pid":17072,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771430956418,"pid":17072,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":50,"time":1771430957397,"pid":17072,"hostname":"Rezus-II","msg":"Error inserting book Atomic Habits"}
+{"level":50,"time":1771430958101,"pid":17072,"hostname":"Rezus-II","msg":"Error inserting book Tools of Titans"}
+{"level":50,"time":1771430958798,"pid":17072,"hostname":"Rezus-II","msg":"Error inserting book Make Your Bed"}
+{"level":50,"time":1771430959427,"pid":17072,"hostname":"Rezus-II","msg":"Error inserting book The Subtle Art of Not Giving a F*ck"}
+{"level":50,"time":1771430960129,"pid":17072,"hostname":"Rezus-II","msg":"Error inserting book Born a Crime"}
+{"level":30,"time":1771430960130,"pid":17072,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1771431021342,"pid":24912,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771431024352,"pid":6296,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771431027426,"pid":19696,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771431030225,"pid":10076,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771431039168,"pid":10076,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":50,"time":1771431040693,"pid":10076,"hostname":"Rezus-II","msg":"Error inserting book Atomic Habits"}
+{"level":50,"time":1771431041587,"pid":10076,"hostname":"Rezus-II","msg":"Error inserting book Tools of Titans"}
+{"level":50,"time":1771431042289,"pid":10076,"hostname":"Rezus-II","msg":"Error inserting book Make Your Bed"}
+{"level":50,"time":1771431043207,"pid":10076,"hostname":"Rezus-II","msg":"Error inserting book The Subtle Art of Not Giving a F*ck"}
+{"level":50,"time":1771431044017,"pid":10076,"hostname":"Rezus-II","msg":"Error inserting book Born a Crime"}
+{"level":30,"time":1771431044018,"pid":10076,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1771431169171,"pid":8792,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771431269877,"pid":20816,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771431272157,"pid":20816,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":50,"time":1771431272940,"pid":20816,"hostname":"Rezus-II","msg":"Error inserting book Atomic Habits"}
+{"level":50,"time":1771431273623,"pid":20816,"hostname":"Rezus-II","msg":"Error inserting book Tools of Titans"}
+{"level":50,"time":1771431274340,"pid":20816,"hostname":"Rezus-II","msg":"Error inserting book Make Your Bed"}
+{"level":50,"time":1771431274979,"pid":20816,"hostname":"Rezus-II","msg":"Error inserting book The Subtle Art of Not Giving a F*ck"}
+{"level":50,"time":1771431275606,"pid":20816,"hostname":"Rezus-II","msg":"Error inserting book Born a Crime"}
+{"level":30,"time":1771431275606,"pid":20816,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1771431370930,"pid":20508,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771431378815,"pid":20508,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771431379909,"pid":20508,"hostname":"Rezus-II","msg":"5 books uploaded successfully"}
+{"level":30,"time":1771431448400,"pid":23568,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771431456245,"pid":13076,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771431460451,"pid":11496,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771431470608,"pid":11496,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771431472759,"pid":11496,"hostname":"Rezus-II","msg":"5 books uploaded successfully"}
+{"level":30,"time":1771432404087,"pid":25012,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771432414904,"pid":25012,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":50,"time":1771432416133,"pid":25012,"hostname":"Rezus-II","msg":"Error inserting book Atomic Habits"}
+{"level":50,"time":1771432416849,"pid":25012,"hostname":"Rezus-II","msg":"Error inserting book Tools of Titans"}
+{"level":50,"time":1771432417765,"pid":25012,"hostname":"Rezus-II","msg":"Error inserting book Make Your Bed"}
+{"level":50,"time":1771432418436,"pid":25012,"hostname":"Rezus-II","msg":"Error inserting book The Subtle Art of Not Giving a F*ck"}
+{"level":50,"time":1771432419083,"pid":25012,"hostname":"Rezus-II","msg":"Error inserting book Born a Crime"}
+{"level":30,"time":1771432419084,"pid":25012,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1771432558575,"pid":21168,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771432589552,"pid":22580,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771432597597,"pid":9788,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771432628403,"pid":25108,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771432636815,"pid":9300,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771432642705,"pid":17556,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771432653945,"pid":23856,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771432661407,"pid":22976,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771432664379,"pid":10820,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771432691222,"pid":6900,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771432693040,"pid":1504,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771432695215,"pid":1504,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":50,"time":1771432696121,"pid":1504,"hostname":"Rezus-II","msg":"Error inserting book Atomic Habits"}
+{"level":50,"time":1771432696121,"pid":1504,"hostname":"Rezus-II","msg":"CSV Processing Error:"}
+{"level":50,"time":1771432696122,"pid":1504,"hostname":"Rezus-II","msg":"Error in uploadBooksFromCSV controller:"}
+{"level":30,"time":1771432699666,"pid":1504,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":50,"time":1771432700409,"pid":1504,"hostname":"Rezus-II","msg":"Error inserting book Atomic Habits"}
+{"level":50,"time":1771432700409,"pid":1504,"hostname":"Rezus-II","msg":"CSV Processing Error:"}
+{"level":50,"time":1771432700410,"pid":1504,"hostname":"Rezus-II","msg":"Error in uploadBooksFromCSV controller:"}
+{"level":30,"time":1771433392062,"pid":17648,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771433429633,"pid":17648,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771433430790,"pid":17648,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1771433434049,"pid":17648,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771433434331,"pid":17648,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1771433593893,"pid":17648,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771433594913,"pid":17648,"hostname":"Rezus-II","msg":"Book 5 updated successfully"}
+{"level":30,"time":1771433647919,"pid":17648,"hostname":"Rezus-II","msg":"User authenticated: ID=1, Role=admin"}
+{"level":30,"time":1771433649082,"pid":17648,"hostname":"Rezus-II","msg":"Book 5 deleted successfully"}
+{"level":30,"time":1771433682224,"pid":23708,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771433730588,"pid":17672,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771435741072,"pid":17672,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771435741074,"pid":17672,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771435841351,"pid":22560,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771435843330,"pid":16592,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771435853276,"pid":24800,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771435854858,"pid":26404,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771435869785,"pid":6684,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771435929276,"pid":6684,"hostname":"Rezus-II","msg":"User authenticated: ID=2, Role=user"}
+{"level":30,"time":1771435980898,"pid":6684,"hostname":"Rezus-II","msg":"User authenticated: ID=2, Role=user"}
+{"level":30,"time":1771435989811,"pid":6684,"hostname":"Rezus-II","msg":"User authenticated: ID=2, Role=user"}
+{"level":50,"time":1771435989814,"pid":6684,"hostname":"Rezus-II","msg":"Error in addReview:"}
+{"level":30,"time":1771436002312,"pid":6684,"hostname":"Rezus-II","msg":"User authenticated: ID=2, Role=user"}
+{"level":30,"time":1771436128815,"pid":200,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771436195745,"pid":200,"hostname":"Rezus-II","msg":"User authenticated: ID=2, Role=user"}
+{"level":30,"time":1771436277884,"pid":200,"hostname":"Rezus-II","msg":"User authenticated: ID=2, Role=user"}
+{"level":30,"time":1771436324437,"pid":200,"hostname":"Rezus-II","msg":"User authenticated: ID=2, Role=user"}
+{"level":30,"time":1771607736028,"pid":14420,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771607959287,"pid":24964,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":40,"time":1771607976344,"pid":24964,"hostname":"Rezus-II","msg":"Login attempt failed - no user found: jhon@example.com"}
+{"level":50,"time":1771607976345,"pid":24964,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771608077242,"pid":24964,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: john@example.com"}
+{"level":50,"time":1771608077243,"pid":24964,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771608089324,"pid":24964,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771608089325,"pid":24964,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771608104120,"pid":24964,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771608104120,"pid":24964,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":50,"time":1771608550755,"pid":24964,"hostname":"Rezus-II","msg":"Error in googleLogin controller:"}
+{"level":50,"time":1771608666284,"pid":24964,"hostname":"Rezus-II","msg":"Error in googleLogin controller:"}
+{"level":30,"time":1771609151613,"pid":27400,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1771609302808,"pid":27400,"hostname":"Rezus-II","msg":"Error in googleLogin controller:"}
+{"level":30,"time":1771609434391,"pid":26988,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1771610525349,"pid":26988,"hostname":"Rezus-II","msg":"Error in googleLogin controller:"}
+{"level":30,"time":1771613059431,"pid":17756,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771613197431,"pid":25896,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771613200577,"pid":24940,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771613235306,"pid":17296,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771613236856,"pid":3228,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1771613327255,"pid":3228,"hostname":"Rezus-II","msg":"Error in googleLogin controller:"}
+{"level":30,"time":1771613904488,"pid":16944,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771613917149,"pid":18592,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1771614059509,"pid":18592,"hostname":"Rezus-II","msg":"Error in googleLogin controller:"}
+{"level":30,"time":1771614107028,"pid":17076,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614421270,"pid":3220,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614425331,"pid":13856,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614427324,"pid":22232,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614430053,"pid":25584,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614434144,"pid":3736,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614442360,"pid":25116,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614461273,"pid":11512,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614467880,"pid":19208,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614469218,"pid":788,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614471967,"pid":17412,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614474739,"pid":25888,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614477037,"pid":12908,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771614557039,"pid":12908,"hostname":"Rezus-II","msg":"New user created via Google login: opboy4885@gmail.com"}
+{"level":30,"time":1771614557040,"pid":12908,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771614557040,"pid":12908,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771614740158,"pid":12908,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771614740158,"pid":12908,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":40,"time":1771614865923,"pid":12908,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: opboy4885@gmail.com"}
+{"level":50,"time":1771614865923,"pid":12908,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771614872459,"pid":12908,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: opboy4885@gmail.com"}
+{"level":50,"time":1771614872459,"pid":12908,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771614878522,"pid":12908,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: opboy4885@gmail.com"}
+{"level":50,"time":1771614878522,"pid":12908,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":50,"time":1771614885679,"pid":12908,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771614895125,"pid":12908,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: opboy4885@gmail.com"}
+{"level":50,"time":1771614895125,"pid":12908,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771614898481,"pid":12908,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: opboy4885@gmail.com"}
+{"level":50,"time":1771614898481,"pid":12908,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":50,"time":1771614902171,"pid":12908,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771614906152,"pid":12908,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: opboy4885@gmail.com"}
+{"level":50,"time":1771614906152,"pid":12908,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771614988587,"pid":12908,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: opboy4885@gmail.com"}
+{"level":50,"time":1771614988588,"pid":12908,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771615108582,"pid":12908,"hostname":"Rezus-II","msg":"Login attempt failed - no user found: jhon@example.com"}
+{"level":50,"time":1771615108582,"pid":12908,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771615116146,"pid":12908,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: john@example.com"}
+{"level":50,"time":1771615116146,"pid":12908,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771615121624,"pid":12908,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771615121624,"pid":12908,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771615171956,"pid":12908,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771615171956,"pid":12908,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771615479574,"pid":20928,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":40,"time":1771615558194,"pid":20928,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: john@example.com"}
+{"level":50,"time":1771615558194,"pid":20928,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771615564441,"pid":20928,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771615564442,"pid":20928,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771615590539,"pid":20928,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771615590539,"pid":20928,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771616148868,"pid":27264,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616172294,"pid":27264,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771616172294,"pid":27264,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771616226810,"pid":27264,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771616226810,"pid":27264,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771616249461,"pid":27264,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771616249461,"pid":27264,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771616285854,"pid":19208,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616582082,"pid":27096,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616583175,"pid":25228,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616584817,"pid":16508,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616591034,"pid":4088,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616595693,"pid":20100,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616600643,"pid":26752,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616613222,"pid":27564,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616651120,"pid":27564,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771616651120,"pid":27564,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771616682842,"pid":25920,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616685554,"pid":2628,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616687585,"pid":24832,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616712437,"pid":25364,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616714236,"pid":7480,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616715750,"pid":26536,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771616717263,"pid":12464,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":40,"time":1771616730919,"pid":12464,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: john@example.com"}
+{"level":50,"time":1771616730919,"pid":12464,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771616742373,"pid":12464,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771616742373,"pid":12464,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771673636405,"pid":2648,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771673752451,"pid":27180,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771673877243,"pid":27180,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771673877243,"pid":27180,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771674824746,"pid":1176,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771674837595,"pid":11224,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771674840982,"pid":18672,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771674875846,"pid":924,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771675194542,"pid":18676,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771675214781,"pid":18676,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675214781,"pid":18676,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675240506,"pid":15500,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771675247181,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675247182,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675256094,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675256094,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675373213,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675373213,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675381436,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675381436,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675692227,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675692227,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675778479,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675778479,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675781761,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675781761,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675789961,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675789961,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675791721,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675791721,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675862127,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675862127,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675862127,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675862127,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675865232,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675865232,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675866782,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675866782,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675931082,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771675931082,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676000504,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676000504,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676025162,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676025162,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676034380,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676034380,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676329198,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676329198,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676337111,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676337111,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676356621,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676356621,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676634840,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676634840,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676641930,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676641930,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676770638,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676770638,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676836503,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771676836503,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771677090083,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771677090083,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771681640705,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771681640706,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771683429282,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771683429282,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771683468465,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683468466,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683488366,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683488366,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683488863,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683488863,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683488891,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683488892,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683489265,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683489265,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683489527,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683489528,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683767972,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771683767972,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":50,"time":1771684607330,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684607873,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684608791,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684636915,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684637258,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684637753,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684638028,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684638219,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684638416,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684638598,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684638766,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684668501,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684668727,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684669418,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684669878,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684768774,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684771148,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684772356,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684773353,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684774065,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684774913,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684775708,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684776338,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684776957,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684777559,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684778113,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684778690,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684780448,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684781061,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684782878,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684784400,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684787801,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771684793896,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771685236733,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771685241804,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":40,"time":1771685382207,"pid":15500,"hostname":"Rezus-II","msg":"Registration attempt with existing email: new@gmail.com"}
+{"level":50,"time":1771685382207,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":40,"time":1771685382468,"pid":15500,"hostname":"Rezus-II","msg":"Registration attempt with existing email: new@gmail.com"}
+{"level":50,"time":1771685382468,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":30,"time":1771685391248,"pid":15500,"hostname":"Rezus-II","msg":"User registered successfully: new2@gmail.com"}
+{"level":30,"time":1771685391248,"pid":15500,"hostname":"Rezus-II","msg":"User registered successfully: new2@gmail.com"}
+{"level":40,"time":1771685415955,"pid":15500,"hostname":"Rezus-II","msg":"Login attempt failed - no user found: new1@gmail.com"}
+{"level":50,"time":1771685415956,"pid":15500,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771685417890,"pid":15500,"hostname":"Rezus-II","msg":"Login attempt failed - no user found: new1@gmail.com"}
+{"level":50,"time":1771685417890,"pid":15500,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771685427338,"pid":15500,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: new@gmail.com"}
+{"level":50,"time":1771685427338,"pid":15500,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771685431831,"pid":15500,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: new@gmail.com"}
+{"level":50,"time":1771685431831,"pid":15500,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771685435284,"pid":15500,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: new@gmail.com"}
+{"level":50,"time":1771685435284,"pid":15500,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771685440043,"pid":15500,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: new2@gmail.com"}
+{"level":50,"time":1771685440043,"pid":15500,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771685461022,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":30,"time":1771685461022,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: john@example.com"}
+{"level":50,"time":1771697066254,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":50,"time":1771697094187,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":30,"time":1771697104586,"pid":15500,"hostname":"Rezus-II","msg":"User registered successfully: new3@gmail.com"}
+{"level":30,"time":1771697104586,"pid":15500,"hostname":"Rezus-II","msg":"User registered successfully: new3@gmail.com"}
+{"level":50,"time":1771697158396,"pid":15500,"hostname":"Rezus-II","msg":"Error in register controller:"}
+{"level":30,"time":1771697175952,"pid":15500,"hostname":"Rezus-II","msg":"User registered successfully: new4@gmail.com"}
+{"level":30,"time":1771697175952,"pid":15500,"hostname":"Rezus-II","msg":"User registered successfully: new4@gmail.com"}
+{"level":30,"time":1771697192602,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: new4@gmail.com"}
+{"level":30,"time":1771697192603,"pid":15500,"hostname":"Rezus-II","msg":"user logged in successfully: new4@gmail.com"}
+{"level":30,"time":1771701248082,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771701248082,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771701262606,"pid":15500,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771701262606,"pid":15500,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771701339404,"pid":15500,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771701339404,"pid":15500,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771701373095,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771701373095,"pid":15500,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771748864862,"pid":24316,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771749457261,"pid":19360,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771750473328,"pid":12868,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771750528168,"pid":7184,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753015504,"pid":23920,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753023380,"pid":23920,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753023380,"pid":23920,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753120450,"pid":23920,"hostname":"Rezus-II","msg":"Password reset successful: opboy4885@gmail.com"}
+{"level":30,"time":1771753120450,"pid":23920,"hostname":"Rezus-II","msg":"Password reset successful: opboy4885@gmail.com"}
+{"level":30,"time":1771753199456,"pid":23920,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771753199457,"pid":23920,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771753236144,"pid":23920,"hostname":"Rezus-II","msg":"user logged in successfully: opboy4885@gmail.com"}
+{"level":30,"time":1771753236144,"pid":23920,"hostname":"Rezus-II","msg":"user logged in successfully: opboy4885@gmail.com"}
+{"level":30,"time":1771753275669,"pid":23920,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753275669,"pid":23920,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":50,"time":1771753277650,"pid":23920,"hostname":"Rezus-II","msg":"Error in sendOtp controller:"}
+{"level":50,"time":1771753279825,"pid":23920,"hostname":"Rezus-II","msg":"Error in sendOtp controller:"}
+{"level":50,"time":1771753282023,"pid":23920,"hostname":"Rezus-II","msg":"Error in sendOtp controller:"}
+{"level":30,"time":1771753347680,"pid":6156,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753350506,"pid":5764,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753352050,"pid":22164,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753362347,"pid":20084,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753365767,"pid":22144,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753369318,"pid":23836,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753375832,"pid":23836,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753375832,"pid":23836,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753380958,"pid":23836,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753380958,"pid":23836,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753387140,"pid":23836,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753387140,"pid":23836,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753484063,"pid":15616,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753505445,"pid":15616,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753505445,"pid":15616,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753543965,"pid":24692,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753545314,"pid":13324,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753556018,"pid":13324,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753556018,"pid":13324,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771753594844,"pid":13324,"hostname":"Rezus-II","msg":"Password reset successful: opboy4885@gmail.com"}
+{"level":30,"time":1771753594844,"pid":13324,"hostname":"Rezus-II","msg":"Password reset successful: opboy4885@gmail.com"}
+{"level":30,"time":1771753676246,"pid":8696,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753679274,"pid":24624,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753680606,"pid":21260,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753744553,"pid":1880,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753772726,"pid":18712,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753776008,"pid":10700,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753798474,"pid":20200,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753803787,"pid":3848,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753808494,"pid":8700,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753818618,"pid":25152,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753822566,"pid":14132,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753824485,"pid":3388,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753871952,"pid":25392,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753887436,"pid":7160,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753922898,"pid":22828,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753924128,"pid":15588,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753947881,"pid":8284,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753960393,"pid":16072,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753977058,"pid":23364,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771753988111,"pid":13356,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754001848,"pid":18508,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754003788,"pid":13732,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754005606,"pid":13068,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754013925,"pid":14144,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754015177,"pid":3540,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754102225,"pid":3540,"hostname":"Rezus-II","msg":"User registered successfully: workretesh12@gmail.com"}
+{"level":30,"time":1771754102225,"pid":3540,"hostname":"Rezus-II","msg":"User registered successfully: workretesh12@gmail.com"}
+{"level":40,"time":1771754165460,"pid":3540,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: workretesh12@gmail.com"}
+{"level":50,"time":1771754165460,"pid":3540,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771754173798,"pid":3540,"hostname":"Rezus-II","msg":"user logged in successfully: workretesh12@gmail.com"}
+{"level":30,"time":1771754173798,"pid":3540,"hostname":"Rezus-II","msg":"user logged in successfully: workretesh12@gmail.com"}
+{"level":40,"time":1771754222457,"pid":3540,"hostname":"Rezus-II","msg":"OTP not found for: workretesh12@gmail.com"}
+{"level":50,"time":1771754222457,"pid":3540,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":30,"time":1771754281454,"pid":3540,"hostname":"Rezus-II","msg":"OTP sent to: workretesh12@gmail.com"}
+{"level":30,"time":1771754281454,"pid":3540,"hostname":"Rezus-II","msg":"OTP sent to: workretesh12@gmail.com"}
+{"level":30,"time":1771754287553,"pid":3540,"hostname":"Rezus-II","msg":"OTP sent to: workretesh12@gmail.com"}
+{"level":30,"time":1771754287553,"pid":3540,"hostname":"Rezus-II","msg":"OTP sent to: workretesh12@gmail.com"}
+{"level":50,"time":1771754334901,"pid":3540,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":40,"time":1771754341594,"pid":3540,"hostname":"Rezus-II","msg":"Invalid OTP attempt for: workretesh12@gmail.com"}
+{"level":50,"time":1771754341594,"pid":3540,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":40,"time":1771754345995,"pid":3540,"hostname":"Rezus-II","msg":"Invalid OTP attempt for: workretesh12@gmail.com"}
+{"level":50,"time":1771754345995,"pid":3540,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":30,"time":1771754364440,"pid":3540,"hostname":"Rezus-II","msg":"Password reset successful: workretesh12@gmail.com"}
+{"level":30,"time":1771754364440,"pid":3540,"hostname":"Rezus-II","msg":"Password reset successful: workretesh12@gmail.com"}
+{"level":30,"time":1771754441297,"pid":13668,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754445333,"pid":9192,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754448796,"pid":23956,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754585543,"pid":3848,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754588934,"pid":8972,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754590543,"pid":24888,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754592335,"pid":24820,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754624603,"pid":24608,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754672306,"pid":22436,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754674856,"pid":24856,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754676095,"pid":7064,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754683337,"pid":9840,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754685336,"pid":604,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771754948317,"pid":604,"hostname":"Rezus-II","msg":"OTP sent to: workretesh12@gmail.com"}
+{"level":30,"time":1771754948317,"pid":604,"hostname":"Rezus-II","msg":"OTP sent to: workretesh12@gmail.com"}
+{"level":50,"time":1771754978375,"pid":604,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771754985410,"pid":604,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771754988024,"pid":604,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":30,"time":1771754992257,"pid":604,"hostname":"Rezus-II","msg":"Password reset successful: workretesh12@gmail.com"}
+{"level":30,"time":1771754995848,"pid":604,"hostname":"Rezus-II","msg":"Password reset successful: workretesh12@gmail.com"}
+{"level":30,"time":1771755387377,"pid":25484,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771755392835,"pid":1668,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771755397337,"pid":5952,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771755405988,"pid":14200,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771755468215,"pid":24644,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771755472026,"pid":25384,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771755473899,"pid":25348,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771755494712,"pid":15072,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771755496355,"pid":19176,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771755575463,"pid":19176,"hostname":"Rezus-II","msg":"OTP sent to: workretesh12@gmail.com"}
+{"level":30,"time":1771755575463,"pid":19176,"hostname":"Rezus-II","msg":"OTP sent to: workretesh12@gmail.com"}
+{"level":50,"time":1771755593983,"pid":19176,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":30,"time":1771755635563,"pid":5952,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771755641200,"pid":17228,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771755643098,"pid":5712,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771755773057,"pid":12876,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1771755877070,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771755879218,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771755883070,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771755886147,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771755972787,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771755978762,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771755980792,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771755986306,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771756016369,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771756021376,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771756026188,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771756036013,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771756042423,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":40,"time":1771756090874,"pid":12876,"hostname":"Rezus-II","msg":"OTP expired for: workretesh12@gmail.com"}
+{"level":50,"time":1771756090874,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":40,"time":1771756093042,"pid":12876,"hostname":"Rezus-II","msg":"OTP not found for: workretesh12@gmail.com"}
+{"level":50,"time":1771756093042,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":40,"time":1771756094995,"pid":12876,"hostname":"Rezus-II","msg":"OTP not found for: workretesh12@gmail.com"}
+{"level":50,"time":1771756094995,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":40,"time":1771756096967,"pid":12876,"hostname":"Rezus-II","msg":"OTP not found for: workretesh12@gmail.com"}
+{"level":50,"time":1771756096967,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":30,"time":1771756103725,"pid":12876,"hostname":"Rezus-II","msg":"OTP sent to: workretesh12@gmail.com"}
+{"level":30,"time":1771756103725,"pid":12876,"hostname":"Rezus-II","msg":"OTP sent to: workretesh12@gmail.com"}
+{"level":50,"time":1771756130947,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771756134934,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":30,"time":1771756137787,"pid":12876,"hostname":"Rezus-II","msg":"Password reset successful: workretesh12@gmail.com"}
+{"level":30,"time":1771756141235,"pid":12876,"hostname":"Rezus-II","msg":"Password reset successful: workretesh12@gmail.com"}
+{"level":30,"time":1771756355638,"pid":12876,"hostname":"Rezus-II","msg":"OTP sent to: workretesh12@gmail.com"}
+{"level":30,"time":1771756355638,"pid":12876,"hostname":"Rezus-II","msg":"OTP sent to: workretesh12@gmail.com"}
+{"level":50,"time":1771756447224,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":30,"time":1771756452786,"pid":12876,"hostname":"Rezus-II","msg":"Password reset successful: workretesh12@gmail.com"}
+{"level":30,"time":1771756456815,"pid":12876,"hostname":"Rezus-II","msg":"Password reset successful: workretesh12@gmail.com"}
+{"level":40,"time":1771757741276,"pid":12876,"hostname":"Rezus-II","msg":"OTP request for non-existent email: rete230101020@gmail.com"}
+{"level":50,"time":1771757741277,"pid":12876,"hostname":"Rezus-II","msg":"Error in sendOtp controller:"}
+{"level":40,"time":1771757811136,"pid":12876,"hostname":"Rezus-II","msg":"OTP request for non-existent email: rete230101020@gmail.com"}
+{"level":50,"time":1771757811136,"pid":12876,"hostname":"Rezus-II","msg":"Error in sendOtp controller:"}
+{"level":40,"time":1771757837272,"pid":12876,"hostname":"Rezus-II","msg":"OTP request for non-existent email: rete@gmil.com"}
+{"level":50,"time":1771757837272,"pid":12876,"hostname":"Rezus-II","msg":"Error in sendOtp controller:"}
+{"level":50,"time":1771757907140,"pid":12876,"hostname":"Rezus-II","msg":"Error in sendOtp controller:"}
+{"level":50,"time":1771757909285,"pid":12876,"hostname":"Rezus-II","msg":"Error in sendOtp controller:"}
+{"level":50,"time":1771758107072,"pid":12876,"hostname":"Rezus-II","msg":"Error in sendOtp controller:"}
+{"level":50,"time":1771758109218,"pid":12876,"hostname":"Rezus-II","msg":"Error in sendOtp controller:"}
+{"level":50,"time":1771758110461,"pid":12876,"hostname":"Rezus-II","msg":"Error in sendOtp controller:"}
+{"level":40,"time":1771758120240,"pid":12876,"hostname":"Rezus-II","msg":"OTP request for non-existent email: rete23101@gmail.com"}
+{"level":50,"time":1771758120242,"pid":12876,"hostname":"Rezus-II","msg":"Error in sendOtp controller:"}
+{"level":30,"time":1771758148105,"pid":12876,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771758148105,"pid":12876,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":50,"time":1771758177985,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771758181558,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":50,"time":1771758190729,"pid":12876,"hostname":"Rezus-II","msg":"Error in resetPassword controller:"}
+{"level":30,"time":1771758194517,"pid":12876,"hostname":"Rezus-II","msg":"Password reset successful: opboy4885@gmail.com"}
+{"level":30,"time":1771758197789,"pid":12876,"hostname":"Rezus-II","msg":"Password reset successful: opboy4885@gmail.com"}
+{"level":30,"time":1771758209318,"pid":12876,"hostname":"Rezus-II","msg":"user logged in successfully: opboy4885@gmail.com"}
+{"level":30,"time":1771758209320,"pid":12876,"hostname":"Rezus-II","msg":"user logged in successfully: opboy4885@gmail.com"}
+{"level":30,"time":1771773684118,"pid":26532,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771773690083,"pid":26532,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771773690083,"pid":26532,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771774426432,"pid":27056,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774667525,"pid":14144,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774723183,"pid":24728,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774731810,"pid":24888,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774733670,"pid":20888,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774736231,"pid":13148,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774738210,"pid":25228,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774744082,"pid":19328,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774746760,"pid":12632,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774764172,"pid":24404,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774771362,"pid":27576,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774773207,"pid":28456,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774776625,"pid":19844,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774780073,"pid":14300,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771774784020,"pid":16624,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1771774862995,"pid":16624,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":40,"time":1771774877021,"pid":16624,"hostname":"Rezus-II","msg":"Login attempt failed - invalid password: workretesh12@gmail.com"}
+{"level":50,"time":1771774877021,"pid":16624,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771774900131,"pid":16624,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771774900131,"pid":16624,"hostname":"Rezus-II","msg":"OTP sent to: opboy4885@gmail.com"}
+{"level":30,"time":1771774926885,"pid":16624,"hostname":"Rezus-II","msg":"Password reset successful: opboy4885@gmail.com"}
+{"level":30,"time":1771774930387,"pid":16624,"hostname":"Rezus-II","msg":"Password reset successful: opboy4885@gmail.com"}
+{"level":30,"time":1771774957538,"pid":16624,"hostname":"Rezus-II","msg":"user logged in successfully: opboy4885@gmail.com"}
+{"level":30,"time":1771774957539,"pid":16624,"hostname":"Rezus-II","msg":"user logged in successfully: opboy4885@gmail.com"}
+{"level":30,"time":1771774977320,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775086468,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775534264,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775628492,"pid":16624,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771775628492,"pid":16624,"hostname":"Rezus-II","msg":"GitHub login successful: opboy4885@gmail.com"}
+{"level":30,"time":1771775764232,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775768420,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775768647,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775788335,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775788443,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775788498,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775788809,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775789604,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775825934,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775826101,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775826257,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775827106,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775908253,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775908287,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775908348,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775908521,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771775909200,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771776335246,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771776335333,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771776335494,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771776337419,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771776796218,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771776796977,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771777686021,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771777687048,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778016163,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778018065,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778090462,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778091945,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778142711,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778143864,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778170824,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778171877,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778345278,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778346590,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778378473,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778384726,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778384936,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778387878,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778404669,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778405780,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778408202,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778408531,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778414789,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778415131,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778420307,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778420566,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778425684,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778425807,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778425860,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778425994,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778426044,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778427546,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778694694,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778696487,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778711895,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778712181,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778716133,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778845411,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778846108,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778912087,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778912814,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778965859,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778966754,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778989302,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771778990850,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771779097363,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771779100050,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771779421109,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771779422334,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771779607206,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771779609131,"pid":16624,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771780419099,"pid":3452,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771780420495,"pid":3452,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771780421738,"pid":3452,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771780424175,"pid":3452,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771780424434,"pid":3452,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771780426529,"pid":3452,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771780426832,"pid":3452,"hostname":"Rezus-II","msg":"User authenticated: ID=4, Role=user"}
+{"level":30,"time":1771780448065,"pid":15860,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771780486047,"pid":28344,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771782663960,"pid":13472,"hostname":"Rezus-II","msg":"Database Connected"}

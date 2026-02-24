@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+
+:root {
+    --background: 160 20% 4%;
+    --foreground: 150 20% 90%;
+  
+    --card: 160 15% 8%;
+    --border: 160 15% 18%;
+  
+    --primary: 142 70% 45%;
+    --primary-foreground: 160 20% 4%;
+  
+    --input: 160 15% 15%;
+  
+    --muted-foreground: 150 10% 50%;
+
+
+    --toastify-color-dark: hsl(160, 15%, 8%);         /* toast background */
+    --toastify-text-color-dark: hsl(150, 20%, 90%);   /* text color */
+  
+    --toastify-color-success: hsl(142, 70%, 45%);
+    --toastify-color-error: hsl(6, 78%, 57%);
+  
+    --toastify-icon-color-success: hsl(142, 70%, 45%);
+    --toastify-icon-color-error: hsl(6, 78%, 57%);
+  
+    --toastify-color-progress-success: hsl(142, 70%, 45%);
+    --toastify-color-progress-error: hsl(6, 78%, 57%);
+  
+    --toastify-toast-bd-radius: 10px;
+    --toastify-toast-shadow: 0 0 20px hsl(142, 70%, 45%, 0.08);
+    
+  }
+  
+  /* Optional body styling */
+  body {
+    background: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: 'Inter', sans-serif;
+  }

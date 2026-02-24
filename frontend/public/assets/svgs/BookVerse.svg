@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#1a1a2e" stroke="#4a5568" stroke-width="2"/>
+  
+  <!-- Stars -->
+  <circle cx="40" cy="40" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="160" cy="50" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="170" cy="150" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="30" cy="140" r="1.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="150" cy="30" r="1" fill="#ffffff" opacity="0.5"/>
+  <circle cx="25" cy="80" r="1" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Open book -->
+  <g transform="translate(100, 100)">
+    <!-- Left page -->
+    <path d="M -60 -55 L -5 -55 L -5 45 L -60 45 Z" 
+          fill="#e8d5b7" stroke="#8b7355" stroke-width="1.5"/>
+    
+    <!-- Right page -->
+    <path d="M 5 -55 L 60 -55 L 60 45 L 5 45 Z" 
+          fill="#f5e6d3" stroke="#8b7355" stroke-width="1.5"/>
+    
+    <!-- Book spine shadow -->
+    <rect x="-2" y="-55" width="4" height="100" fill="#d4b896"/>
+    
+    <!-- Page lines on left -->
+    <line x1="-45" y1="-35" x2="-15" y2="-35" stroke="#b8a68f" stroke-width="0.8" opacity="0.6"/>
+    <line x1="-45" y1="-20" x2="-15" y2="-20" stroke="#b8a68f" stroke-width="0.8" opacity="0.6"/>
+    <line x1="-45" y1="-5" x2="-15" y2="-5" stroke="#b8a68f" stroke-width="0.8" opacity="0.6"/>
+    <line x1="-45" y1="10" x2="-15" y2="10" stroke="#b8a68f" stroke-width="0.8" opacity="0.6"/>
+    <line x1="-45" y1="25" x2="-15" y2="25" stroke="#b8a68f" stroke-width="0.8" opacity="0.6"/>
+    
+    <!-- Page lines on right -->
+    <line x1="15" y1="-35" x2="45" y2="-35" stroke="#b8a68f" stroke-width="0.8" opacity="0.6"/>
+    <line x1="15" y1="-20" x2="45" y2="-20" stroke="#b8a68f" stroke-width="0.8" opacity="0.6"/>
+    <line x1="15" y1="-5" x2="45" y2="-5" stroke="#b8a68f" stroke-width="0.8" opacity="0.6"/>
+    <line x1="15" y1="10" x2="45" y2="10" stroke="#b8a68f" stroke-width="0.8" opacity="0.6"/>
+    <line x1="15" y1="25" x2="45" y2="25" stroke="#b8a68f" stroke-width="0.8" opacity="0.6"/>
+  </g>
+  
+  <!-- Orbital rings/planets -->
+  <!-- Ring 1 -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#4a5568" stroke-width="1" opacity="0.3" stroke-dasharray="5,5"/>
+  
+  <!-- Small planet on orbit -->
+  <circle cx="170" cy="100" r="6" fill="#6366f1" opacity="0.8"/>
+  <circle cx="168" cy="98" r="2" fill="#818cf8" opacity="0.6"/>
+  
+  <!-- Ring 2 -->
+  <ellipse cx="100" cy="100" rx="55" ry="20" fill="none" stroke="#4a5568" stroke-width="1" opacity="0.3" transform="rotate(-20 100 100)"/>
+  
+  <!-- Tiny planet -->
+  <circle cx="65" cy="75" r="4" fill="#f59e0b" opacity="0.8"/>
+  
+  <!-- Sparkles/stars around book -->
+  <path d="M 100 45 L 102 50 L 107 50 L 103 53 L 105 58 L 100 55 L 95 58 L 97 53 L 93 50 L 98 50 Z" 
+        fill="#fbbf24" opacity="0.9"/>
+  <path d="M 145 95 L 146 98 L 149 98 L 147 100 L 148 103 L 145 101 L 142 103 L 143 100 L 141 98 L 144 98 Z" 
+        fill="#fbbf24" opacity="0.7" transform="scale(0.7) translate(80 10)"/>
+</svg>
