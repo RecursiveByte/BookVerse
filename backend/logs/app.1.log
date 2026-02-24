@@ -730,3 +730,18 @@
 {"level":30,"time":1771957616245,"pid":9584,"hostname":"Rezus-II","msg":"Database Connected"}
 {"level":30,"time":1771957647973,"pid":14472,"hostname":"Rezus-II","msg":"Database Connected"}
 {"level":30,"time":1771958074236,"pid":24096,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1771959870598,"pid":27104,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1771959889613,"pid":27104,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":50,"time":1771959889613,"pid":27104,"hostname":"Rezus-II","msg":"Error type:"}
+{"level":50,"time":1771959889613,"pid":27104,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771959929997,"pid":10800,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1771959934848,"pid":10800,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":50,"time":1771959934848,"pid":10800,"hostname":"Rezus-II","msg":"Error type:"}
+{"level":50,"time":1771959934848,"pid":10800,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771960070520,"pid":19400,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1771960072725,"pid":19400,"hostname":"Rezus-II","msg":"Error in login controller: {}"}
+{"level":30,"time":1771960112274,"pid":25396,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1771960114033,"pid":25396,"hostname":"Rezus-II","msg":"Error in login controller: {}"}
+{"level":50,"time":1771960114033,"pid":25396,"hostname":"Rezus-II","msg":"Error in login controller:"}
+{"level":30,"time":1771960209314,"pid":9868,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1771960212766,"pid":9868,"hostname":"Rezus-II","err":{"type":"Error","message":"some thing error","stack":"Error: some thing error\n    at login (C:\\git\\BookVerse\\backend\\src\\controllers\\auth.controller.ts:41:11)\n    at Layer.handleRequest (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\git\\BookVerse\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\git\\BookVerse\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\git\\BookVerse\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\git\\BookVerse\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\git\\BookVerse\\backend\\node_modules\\router\\index.js:186:3)"},"msg":"Error in login controller"}

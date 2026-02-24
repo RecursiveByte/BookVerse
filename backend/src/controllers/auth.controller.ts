@@ -45,10 +45,7 @@ export const login = async (req: Request, res: Response) => {
     logger.info(`${validatedData.role} logged in successfully: ${validatedData.email}`);
     return res.status(HTTP_STATUS.OK).json(result);
   } catch (error: any) {
-    logger.error('Error in login controller:', error.message);  // add this
-    logger.error('Error type:', error.constructor.name); 
-    logger.error('Error in login controller:', error.issues);
-    
+    logger.error({ err: error }, 'Error in login controller');
     if (error instanceof z.ZodError) {
         console.log('Validation errors:', error.issues);
       return res.status(HTTP_STATUS.BAD_REQUEST).json({ 
