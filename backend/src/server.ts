@@ -2,12 +2,12 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
-import {prisma} from "./lib/prisma.js";
-import authRouter  from './routes/auth.routes.js';
-import adminRouter from './routes/admin.routes.js';
-import logger from "./utils/logger.js";
-import reviewRouter from "./routes/review.routes.js"
-import bookRouter from "./routes/books.routes.js"
+import {prisma} from "./lib/prisma";
+import authRouter  from './routes/auth.routes';
+import adminRouter from './routes/admin.routes';
+import logger from "./utils/logger";
+import reviewRouter from "./routes/review.routes"
+import bookRouter from "./routes/books.routes"
 
 dotenv.config();
 
