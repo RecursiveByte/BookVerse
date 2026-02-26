@@ -8,11 +8,14 @@ import adminRouter from './routes/admin.routes';
 import logger from "./utils/logger";
 import reviewRouter from "./routes/review.routes"
 import bookRouter from "./routes/books.routes"
+import { authRateLimiter } from "./middlewares/rateLimiter";
 
 dotenv.config();
 
 const app = express();
+app.set("trust proxy", 1);
 
+app.use("/api/auth", authRateLimiter);
 app.use(cors({ origin: process.env.FRONTEND_URL, credentials: true }));
 app.use(cookieParser());
 app.use(express.json());

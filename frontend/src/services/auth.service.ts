@@ -18,3 +18,6 @@ export const sendOtp = (data: { email: string }) =>
 
 export const verifyOtpAndReset = (data: { email: string; otp: string; newPassword: string }) =>
   axios.post("/auth/reset-password", data);
+
+export const checkAuth = () =>
+  axios.get<{ isAuthenticated: boolean; role: "user" | "admin" }>("/auth/check-auth");
