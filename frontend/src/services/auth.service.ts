@@ -2,7 +2,10 @@ import axios from "@/lib/axios";
 import type { LoginPayload, AuthResponse,RegisterPayload, RegisterResponse } from "@/types/auth.types";
 
 export const loginUser = ({ email, password }: LoginPayload) =>
-  axios.post<AuthResponse>("/auth/login", { email, password, role: "user" });
+  axios.post<AuthResponse>("/auth/login", { email, password, role: "user"  });
+
+export const loginAdmin = ({ email, password }: LoginPayload) =>
+  axios.post<AuthResponse>("/auth/login", { email, password, role: "admin"  });
 
 export const googleLoginUser = (code: string) =>
   axios.post<AuthResponse>("/auth/google-login", { code });

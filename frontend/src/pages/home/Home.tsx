@@ -1,12 +1,13 @@
 import useAppNavigate from "@/hooks/useAppNavigate";
 import Button from "@/components/ui/Button";
+import GlowBackground from "@/components/common/Glowbackground";
 
 const Home = () => {
   const { toLogin, toRegister } = useAppNavigate();
 
   return (
     <div className="min-h-screen bg-[hsl(var(--background))] text-[hsl(var(--foreground))] relative overflow-hidden flex flex-col">
-      <div
+      {/*<div
         style={{
           backgroundImage: `
             linear-gradient(hsl(var(--primary) / 0.06) 1px, transparent 1px),
@@ -15,7 +16,8 @@ const Home = () => {
           backgroundSize: "80px 80px",
         }}
         className="absolute inset-0 opacity-40 pointer-events-none"
-      />
+      />*/}
+      <GlowBackground gridSize="80px" glowHeight="200px" glowWidth="200px" />
 
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-150 h-75 rounded-full bg-[hsl(var(--primary)/0.12)] blur-[120px] pointer-events-none" />
 

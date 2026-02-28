@@ -26,7 +26,6 @@ export const authenticateUser = (req: Request, res: Response, next: NextFunction
       role: decoded.role
     };
 
-    logger.info(`User authenticated: ID=${decoded.id}, Role=${decoded.role}`);
     next();
   } catch (err: any) {
     logger.error(`Authentication error: ${err.message}`);

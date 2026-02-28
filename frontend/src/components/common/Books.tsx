@@ -2,6 +2,7 @@ import type { FC } from "react";
 import { useState } from "react";
 import BookCard from "./BookCard";
 import type { Book } from "./BookCard";
+import GlowBackground from "./Glowbackground";
 
 interface BooksProps {
   books: Book[];
@@ -63,7 +64,7 @@ const Books: FC<BooksProps> = ({ books, onBookClick }) => {
 
   return (
     <div className="w-screen min-h-screen px-10 lg:px-20 py-20 bg-[hsl(var(--background))] text-[hsl(var(--foreground))]">
-      <div
+     {/* <div
         style={{
           backgroundImage: `
             linear-gradient(hsl(var(--primary) / 0.06) 1px, transparent 1px),
@@ -72,7 +73,8 @@ const Books: FC<BooksProps> = ({ books, onBookClick }) => {
           backgroundSize: "80px 80px",
         }}
         className="absolute inset-0 opacity-40 pointer-events-none"
-      />
+      /> */}
+      <GlowBackground gridSize="50px" />
 
       <div className="relative  z-10 w-full min-h-full mx-auto  ">
         <div className="mb-8 sm:mb-10 text-center">

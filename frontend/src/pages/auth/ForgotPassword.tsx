@@ -4,6 +4,7 @@ import useAppNavigate from "@/hooks/useAppNavigate";
 import EmailStep from "./EmailStep";
 import OtpStep from "./OtpStep";
 import { sendOtp, verifyOtpAndReset } from "@/services/auth.service";
+import GlowBackground from "@/components/common/Glowbackground";
 
 const ForgotPassword = () => {
   const [step, setStep] = useState<"email" | "otp">("email");
@@ -71,16 +72,7 @@ const ForgotPassword = () => {
 
   return (
     <div className="w-screen h-screen flex justify-center items-center relative overflow-hidden">
-      <div
-        style={{
-          backgroundImage: `
-            linear-gradient(hsl(var(--primary) / 0.08) 1px, transparent 1px),
-            linear-gradient(90deg, hsl(var(--primary) / 0.08) 1px, transparent 1px)
-          `,
-          backgroundSize: "40px 40px",
-        }}
-        className="absolute inset-0 opacity-40"
-      />
+      <GlowBackground gridSize="80px" glowHeight="100px" glowWidth="50px" />
 
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-125 h-125 rounded-full bg-[hsl(var(--primary)/0.2)] blur-[150px]" />
 

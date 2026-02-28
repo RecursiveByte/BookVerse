@@ -6,6 +6,7 @@ const useAppNavigate = () => {
   return {
     toHome: () => navigate("/"),
     toDashboard: () => navigate("/userDashboard"),
+    toAdminDashboard:()=> navigate("/adminDashboard"),
     toLogin: () => navigate("/userLogin"),
     toRegister: () => navigate("/register"),
     toForgotPassword: () => navigate("/forgot-password"),
