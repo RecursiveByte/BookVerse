@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import { Users, BookOpen, Star } from "lucide-react";
 
-// ─── Skeleton ─────────────────────────────────────────────────────────────
-
 const StatCardSkeleton = () => (
   <div className="bg-[hsl(var(--card))] border border-[hsl(var(--border))] rounded-xl p-5 flex flex-col gap-4">
     <div className="flex items-center justify-between">

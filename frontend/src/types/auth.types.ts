@@ -43,3 +43,4 @@ export interface RegisterPayload {
 export interface RegisterResponse {
   message: string;
 }
+

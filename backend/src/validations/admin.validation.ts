@@ -16,7 +16,6 @@ export const editBookSchema = z.object({
   title: z.string().min(1).optional(),
   author: z.string().min(1).optional(),
   year: z.number().int().min(1000).max(9999).optional(),
-  availability: z.boolean().optional(),
 });
 
 export const deleteBookSchema = z.object({

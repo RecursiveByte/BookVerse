@@ -17,8 +17,8 @@ const AppRouter: React.FC = () => {
       <Route path={ROUTES.SIGNUP} element={<Register />} />
       <Route path={ROUTES.FORGOT_PASSWORD} element={<ForgotPassword />} />
 
-      <Route element={<ProtectedRoute />}>
-        <Route path={ROUTES.USER_DASHBOARD} element={<UserDashboard />} />
+      <Route element={<ProtectedRoute role={"user"} />}>
+        <Route path={ROUTES.USER_DASHBOARD} element={<UserDashboard  />} />
       </Route>
 
       <Route  >

@@ -47,7 +47,6 @@ export const editReview = async (req: Request, res: Response) => {
     const user = (req as any).user;
 
     const validatedData = editReviewSchema.parse(req.body);
-
     await reviewService.editReview(user.id, validatedData);
 
     return res.status(HTTP_STATUS.OK).json({

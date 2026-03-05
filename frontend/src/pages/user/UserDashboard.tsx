@@ -1,32 +1,16 @@
-import { useEffect, useState } from "react";
-import Books from "@/components/common/Books";
-import { getBooksWithReviews } from "@/services/book.service";
-import { showError } from "@/utils/toast";
+import type { FC } from "react";
+import Books from "@/components/common/book/Book";
+import type { Book } from "@/types/book.type";
 
-const UserDashboard = () => {
-  const [books, setBooks] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+const UserDashboard: FC = () => {
 
-  useEffect(() => {
-    const fetchBooks = async () => {
-      try {
-        const res = await getBooksWithReviews();
-        setBooks(res.data.books);
-      } catch (error) {
-        showError("Failed to fetch books");
-      } finally {
-        setIsLoading(false);
-      }
-    };
+  const handleBookClick = (book: Book) => {
+    console.log("Clicked book:", book);
+  };
 
-    fetchBooks();
-  }, []);
-
-  
-  if (isLoading) return <div>Loading...</div>;
   return (
-    <div className=" w-screen h-screen">
-      <Books books={books} onBookClick={() => {}} />
+    <div>
+      <Books onBookClick={handleBookClick} />
     </div>
   );
 };

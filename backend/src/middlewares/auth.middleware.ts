@@ -13,6 +13,7 @@ export const authenticateUser = (req: Request, res: Response, next: NextFunction
     const token = req.cookies?.token;
 
     if (!token) {
+      
       logger.warn('Authentication failed: No token provided');
       return res.status(HTTP_STATUS.UNAUTHORIZED).json({ 
         message: 'Unauthorized: No token provided' 

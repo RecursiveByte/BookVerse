@@ -25,14 +25,14 @@ class ReviewService {
   }
 
   async editReview(user_id: number, data: {
-    review_id: number;
+    reviewId: number;
     rating?: number;
     comment?: string;
   }) {
     const review = await prisma.review.findUnique({
-      where: { id: data.review_id },
-    });
+      where: { id: data.reviewId },
 
+    });
     if (!review) {
       throw new Error("Review not found");
     }
@@ -42,7 +42,7 @@ class ReviewService {
     }
 
     return await prisma.review.update({
-      where: { id: data.review_id },
+      where: { id: data.reviewId },
       data: {
         rating: data.rating,
         comment: data.comment,
@@ -50,9 +50,9 @@ class ReviewService {
     });
   }
 
-  async deleteReview(user_id: number, review_id: number) {
+  async deleteReview(user_id: number, reviewId: number) {
     const review = await prisma.review.findUnique({
-      where: { id: review_id },
+      where: { id: reviewId },
     });
 
     if (!review) {
@@ -64,7 +64,7 @@ class ReviewService {
     }
 
     return await prisma.review.delete({
-      where: { id: review_id },
+      where: { id: reviewId },
     });
   }
 }

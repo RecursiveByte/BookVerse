@@ -5,15 +5,17 @@ import logger from "../utils/logger";
 import HTTP_STATUS from "../utils/statusCodes";
 import { z } from "zod";
 
+
+
 export const uploadBooksFromCSV = async (req: Request, res: Response) => {
   try {
     const user = (req as any).user;
 
-    if (user.role !== "admin") {
-      return res
-        .status(HTTP_STATUS.FORBIDDEN)
-        .json({ message: "Only admins can upload books" });
-    }
+    // if (user.role !== "admin") {
+      // return res
+        // .status(HTTP_STATUS.FORBIDDEN)
+        // .json({ message: "Only admins can upload books" });
+    // }
 
     if (!req.file) {
       return res
@@ -49,11 +51,11 @@ export const editBook = async (req: Request, res: Response) => {
   try {
     const user = (req as any).user;
 
-    if (user.role !== "admin") {
-      return res
-        .status(HTTP_STATUS.FORBIDDEN)
-        .json({ message: "Only admin can edit books" });
-    }
+    // if (user?.role !== "admin") {
+      // return res
+        // .status(HTTP_STATUS.FORBIDDEN)
+        // .json({ message: "Only admin can edit books" });
+    // }
 
     const validatedData = editBookSchema.parse(req.body);
 
@@ -65,7 +67,7 @@ export const editBook = async (req: Request, res: Response) => {
       .status(HTTP_STATUS.OK)
       .json({ message: "Book updated successfully" });
   } catch (error: any) {
-    logger.error("Error in editBook controller:", error);
+    logger.error({ err: error }, "Error in admin controller");
 
     if (error instanceof z.ZodError) {
       return res.status(HTTP_STATUS.BAD_REQUEST).json({

@@ -1,24 +1,25 @@
 import { Router } from "express";
 import {
-  uploadBooksFromCSV,
   editBook,
   deleteBook,
+  uploadBooksFromCSV
 } from "../controllers/admin.controller";
-import { upload } from "../middlewares/multer";
 import { authenticateUser } from "../middlewares/auth.middleware";
+import { upload } from "../middlewares/multer";
+
 
 const router = Router();
 
 router.post(
   "/upload-books-csv",
-  authenticateUser,
+  // authenticateUser,
   upload.single("file"),
   uploadBooksFromCSV
 );
 
 router.put(
   "/edit-book",
-  authenticateUser,
+  // authenticateUser,
   editBook
 );
 

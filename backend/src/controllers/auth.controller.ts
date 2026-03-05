@@ -10,7 +10,6 @@ import { githubClient } from '../lib/oauth/github';
 import { sendOtpSchema, resetPasswordSchema } from "../validations/auth.validation";
 
 
-
 export const register = async (req: Request, res: Response) => {
   try {
     const validatedData = registerSchema.parse(req.body);
@@ -151,7 +150,7 @@ export const checkAuth = (req: Request, res: Response) => {
     const user = (req as any).user;
     return res.status(HTTP_STATUS.OK).json({
       isAuthenticated: true,
-      role: user.role
+      user
     });
   } catch (error) {
     logger.error(`Error in checkAuth: ${error}`);

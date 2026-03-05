@@ -936,3 +936,676 @@
 {"level":30,"time":1772211792390,"pid":11948,"hostname":"Rezus-II","msg":"Database Connected"}
 {"level":30,"time":1772211815335,"pid":11948,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
 {"level":30,"time":1772211815335,"pid":11948,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772301492652,"pid":21468,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":40,"time":1772301746372,"pid":21468,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772301746374,"pid":21468,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1772352391925,"pid":26412,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772362925646,"pid":14072,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772379810035,"pid":11916,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772380266256,"pid":11916,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772380266257,"pid":11916,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772381382034,"pid":11916,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772381382035,"pid":11916,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":40,"time":1772384833575,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772384833578,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772384849079,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772384849080,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772384876973,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772384876975,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772385630270,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772385630274,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772386368422,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772386368433,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772386455492,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772386455494,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772386465229,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772386598356,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772386670938,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772386888836,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772386891572,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772386891580,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772386901102,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772387270227,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772387270234,"pid":11916,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1772387284699,"pid":22860,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772387292313,"pid":22860,"hostname":"Rezus-II","msg":"Error in editBook controller:"}
+{"level":50,"time":1772387418373,"pid":22860,"hostname":"Rezus-II","msg":"Error in editBook controller:"}
+{"level":50,"time":1772387466409,"pid":22860,"hostname":"Rezus-II","msg":"Error in editBook controller:"}
+{"level":30,"time":1772387474371,"pid":13540,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772387493245,"pid":13540,"hostname":"Rezus-II","err":{"type":"TypeError","message":"Cannot read properties of undefined (reading 'role')","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at editBook (C:\\git\\BookVerse\\backend\\src\\controllers\\admin.controller.ts:12:14)\n    at Layer.handleRequest (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\git\\BookVerse\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\git\\BookVerse\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\git\\BookVerse\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\git\\BookVerse\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (C:\\git\\BookVerse\\backend\\node_modules\\router\\index.js:186:3)"},"msg":"Error in admin controller"}
+{"level":30,"time":1772387639811,"pid":21316,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":40,"time":1772387642657,"pid":21316,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772387642666,"pid":21316,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772387706084,"pid":21316,"hostname":"Rezus-II","msg":"Login attempt failed - no user found: admin@bookverse.com"}
+{"level":50,"time":1772387706084,"pid":21316,"hostname":"Rezus-II","err":{"type":"Error","message":"email not found","stack":"Error: email not found\n    at AuthService.loginUser (C:\\git\\BookVerse\\backend\\src\\services\\auth.service.ts:61:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async login (C:\\git\\BookVerse\\backend\\src\\controllers\\auth.controller.ts:41:20)"},"msg":"Error in login controller"}
+{"level":30,"time":1772387758471,"pid":21316,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772387758471,"pid":21316,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772387834803,"pid":11572,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772387841025,"pid":11572,"hostname":"Rezus-II","msg":"Book 32 updated successfully"}
+{"level":30,"time":1772387863581,"pid":11572,"hostname":"Rezus-II","msg":"Book 32 updated successfully"}
+{"level":30,"time":1772387881243,"pid":11572,"hostname":"Rezus-II","msg":"Book 32 updated successfully"}
+{"level":30,"time":1772388233826,"pid":11572,"hostname":"Rezus-II","msg":"Book 41 deleted successfully"}
+{"level":30,"time":1772557830330,"pid":18072,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":40,"time":1772557835966,"pid":18072,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772557835973,"pid":18072,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772557867922,"pid":18072,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772557900431,"pid":18072,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1772557908963,"pid":19468,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772557982431,"pid":25732,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772557987063,"pid":25732,"hostname":"Rezus-II","msg":"Book 42 updated successfully"}
+{"level":40,"time":1772557992418,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772557992424,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1772558005751,"pid":25732,"hostname":"Rezus-II","msg":"Book 42 updated successfully"}
+{"level":40,"time":1772558422927,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772558422935,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772558639363,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772558639366,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772558649887,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772558649888,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772558672230,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772558672232,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772558720030,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772558720034,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1772559057809,"pid":25732,"hostname":"Rezus-II","msg":"Book 45 updated successfully"}
+{"level":40,"time":1772559369705,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559369710,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559573379,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559573381,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559576378,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559576380,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559582326,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559582328,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559584322,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559584324,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559593329,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559593330,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559901650,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772559901653,"pid":25732,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1772559987414,"pid":25732,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772559987415,"pid":25732,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772560007354,"pid":25732,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772560007354,"pid":25732,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772560320065,"pid":16168,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772560348934,"pid":16168,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772560348935,"pid":16168,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772560564944,"pid":16168,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772560564945,"pid":16168,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":50,"time":1772563174059,"pid":16168,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":50,"time":1772563207410,"pid":16168,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":30,"time":1772563214609,"pid":7464,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772563214756,"pid":7464,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":50,"time":1772563273842,"pid":7464,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":30,"time":1772563345836,"pid":15344,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772563347942,"pid":15344,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":50,"time":1772563386594,"pid":15344,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":30,"time":1772563392781,"pid":14512,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772563429552,"pid":22040,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772563429674,"pid":22040,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":30,"time":1772563494456,"pid":26656,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772563499147,"pid":26656,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":50,"time":1772563515564,"pid":26656,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":30,"time":1772563545984,"pid":26948,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772563548051,"pid":26948,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":30,"time":1772563632922,"pid":26188,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772563636552,"pid":26188,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":30,"time":1772563677511,"pid":5552,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772563678976,"pid":5552,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":30,"time":1772563772630,"pid":14024,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772563773540,"pid":14024,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":50,"time":1772564183858,"pid":14024,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":30,"time":1772564245019,"pid":22020,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772564246941,"pid":22020,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":30,"time":1772564326448,"pid":12624,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772564328899,"pid":12624,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":50,"time":1772564762164,"pid":12624,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":50,"time":1772564772759,"pid":12624,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":30,"time":1772564947480,"pid":3088,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772564957777,"pid":3088,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":50,"time":1772565007539,"pid":3088,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":30,"time":1772565026014,"pid":21008,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772565081370,"pid":23480,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772566663147,"pid":25212,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772606239383,"pid":24740,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772606253519,"pid":24740,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772606253521,"pid":24740,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772634172639,"pid":4300,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772634197074,"pid":4300,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772634197075,"pid":4300,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772635628644,"pid":10856,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772647948057,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948080,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948101,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948113,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948127,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948139,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948153,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948166,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948182,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948193,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948213,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948227,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948238,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948249,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948258,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948268,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948277,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948286,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948297,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948308,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948342,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948356,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948372,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948382,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948391,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948400,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948409,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948419,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948438,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948462,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948472,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948482,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948499,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948516,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948527,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948538,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948550,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948559,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948569,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948580,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948589,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948600,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948611,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948622,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948633,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948646,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948658,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948673,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948683,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948690,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948696,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948702,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948708,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948713,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948719,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948725,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948732,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948739,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948748,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948759,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948769,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948779,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948790,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948800,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948810,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948820,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948829,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948839,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948857,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948872,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948892,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948903,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948924,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948943,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948958,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647948988,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949003,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949028,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949041,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949059,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949070,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949090,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949102,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949122,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949136,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949157,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949170,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949182,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949192,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949204,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949214,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949225,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949239,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949250,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949269,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949285,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949302,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949316,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949333,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949346,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949360,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949371,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949384,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949396,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949409,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949423,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949430,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949440,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949448,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949456,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949465,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949473,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949481,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949488,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949495,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949503,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949511,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949518,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949526,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949533,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949540,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949548,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949556,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949566,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949574,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949584,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949594,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949602,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949610,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949623,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949630,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949638,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949646,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949654,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949664,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949672,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949680,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949688,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949702,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949709,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949718,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949728,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949737,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949749,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949760,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949771,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949783,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949797,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949810,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949843,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949873,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949888,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949906,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949925,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949944,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949977,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647949989,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950003,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950027,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950053,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950069,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950085,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950118,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950133,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950145,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950166,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950187,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950198,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950209,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950220,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950254,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950272,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950289,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950302,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950316,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950343,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950366,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950381,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950397,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950409,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950426,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950442,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950452,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950470,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950481,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950494,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950507,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950520,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950533,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950546,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950560,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950567,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950573,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950581,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950591,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950598,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950604,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950610,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950618,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950626,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950634,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950647,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950653,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950660,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950666,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950672,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950680,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950688,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950694,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950700,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950706,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950712,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950724,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950732,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950738,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950744,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950753,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950762,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950772,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950783,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950793,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950803,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950812,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950820,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950830,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950841,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950853,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950863,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950874,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950885,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950897,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950910,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950922,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950941,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950953,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950962,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950972,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950983,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647950997,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951014,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951023,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951041,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951053,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951073,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951086,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951103,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951118,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951132,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951150,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951171,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951200,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951217,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951240,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951269,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951291,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951321,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951337,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951365,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951385,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951396,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951407,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951436,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951448,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951461,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951487,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951513,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951521,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951530,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951537,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951544,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951562,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951574,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951593,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951602,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951614,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951625,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951637,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951649,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951659,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951672,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951685,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951694,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951702,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951712,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951721,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951734,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951742,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951757,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951774,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951785,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951798,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951812,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951829,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951844,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951861,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951881,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951902,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951925,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951945,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951962,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951980,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647951998,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952015,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952025,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952035,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952045,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952054,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952066,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952075,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952087,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952099,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952109,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952120,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952131,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952143,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952158,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952181,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952195,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952207,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952219,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952230,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952241,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952257,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952268,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952281,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952293,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952310,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952333,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952354,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952369,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952387,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952399,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952412,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952423,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952435,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952449,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952456,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952464,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952470,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952489,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952497,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952504,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952511,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952527,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952534,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952543,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952559,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952566,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952573,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952582,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952596,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952604,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952621,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952629,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952637,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952643,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952662,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952669,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952685,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952692,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952698,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952704,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952721,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952729,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952738,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952757,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952766,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952785,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952798,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952819,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952829,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952838,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952857,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952874,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952888,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952898,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952919,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952944,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952964,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647952990,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953018,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953031,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953042,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953053,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953084,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953095,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953108,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953118,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953129,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953140,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953151,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953162,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953173,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953185,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953196,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953209,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953220,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953233,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953245,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953257,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953286,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953304,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953321,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953340,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953355,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953366,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953379,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953392,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953403,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953415,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953426,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953439,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953451,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953460,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953470,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953477,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953485,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953494,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953502,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953509,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953517,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953523,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953529,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953535,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953542,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953549,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953556,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953562,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953570,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953576,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953583,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953590,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953596,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953602,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953608,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953614,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953620,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953625,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953632,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953639,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953646,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953653,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953660,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953666,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953672,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953679,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953686,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953691,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953698,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953704,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953710,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953717,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953724,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953731,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953738,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953748,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772647953765,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648164658,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648167678,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648766243,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648770236,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648772235,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648775238,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648780243,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648782241,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648782246,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648784233,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648786237,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648791241,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648793239,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648798245,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648801233,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648802231,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648865245,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648866239,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648870237,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648878234,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772648880452,"pid":10856,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":30,"time":1772652297805,"pid":9636,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772652300673,"pid":9636,"hostname":"Rezus-II","msg":"Error in uploadBooksFromCSV controller:"}
+{"level":50,"time":1772652362042,"pid":9636,"hostname":"Rezus-II","msg":"Error in uploadBooksFromCSV controller:"}
+{"level":30,"time":1772652367845,"pid":2800,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772652451201,"pid":2800,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1772652474242,"pid":2800,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1772652677407,"pid":2800,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1772652853104,"pid":2800,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1772652870669,"pid":10192,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772652873051,"pid":10192,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1772653004109,"pid":10192,"hostname":"Rezus-II","msg":"99 books uploaded successfully"}
+{"level":30,"time":1772653016548,"pid":10192,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1772653020200,"pid":10192,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1772653026953,"pid":10192,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":50,"time":1772653091274,"pid":10192,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653127244,"pid":10192,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653133234,"pid":10192,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653139233,"pid":10192,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653146237,"pid":10192,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653153248,"pid":10192,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653162236,"pid":10192,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653169254,"pid":10192,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653177776,"pid":10192,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":30,"time":1772653203680,"pid":27372,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772653206609,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653282236,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653285248,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653289241,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653290239,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653295244,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653298248,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653299230,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653300245,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653301241,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653313617,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653333250,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653352234,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653357245,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653364235,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772653365235,"pid":27372,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":30,"time":1772683893141,"pid":14080,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772699360517,"pid":3012,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772699635649,"pid":3012,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772700326329,"pid":3012,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":50,"time":1772704020351,"pid":3012,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":30,"time":1772715679573,"pid":17572,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772717564419,"pid":17572,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":40,"time":1772720629180,"pid":17572,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1772720639038,"pid":17572,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1772720688110,"pid":17572,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772720688111,"pid":17572,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":50,"time":1772721366081,"pid":17572,"hostname":"Rezus-II","msg":"Error in getBooksWithReviews controller:"}
+{"level":30,"time":1772724610978,"pid":23976,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772724833637,"pid":12456,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772724833696,"pid":21952,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772725836080,"pid":24108,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772725836079,"pid":18596,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772725946070,"pid":22748,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772725946092,"pid":3452,"hostname":"Rezus-II","msg":"Database Connected"}

@@ -1,28 +1,32 @@
 import { useEffect, useState } from "react";
-import { Navigate, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { checkAuth } from "@/services/auth.service";
-import { showError } from "@/utils/toast";
+import { showError, showWarn } from "@/utils/toast";
+import useAppNavigate from "@/hooks/useAppNavigate";
 
-const ProtectedRoute = () => {
+const ProtectedRoute = ({ role }: { role: "admin" | "user" }) => {
+
   const [authState, setAuthState] = useState<{
     isAuthenticated: boolean | null;
-    role: "user" | "admin" | null;
+    user: { id: string; role: string } | null;
   }>({
     isAuthenticated: null,
-    role: null,
+    user: null,
   });
 
+
+  const {toLogin} = useAppNavigate();
+  
   useEffect(() => {
     const verify = async () => {
       try {
         const res = await checkAuth();
         setAuthState({
           isAuthenticated: res.data.isAuthenticated ?? false,
-          role: res.data.role ?? null,
+          user: res.data.user,
         });
-        
       } catch (error: any) {
-        setAuthState({ isAuthenticated: false, role: null });
+        setAuthState({ isAuthenticated: false, user: null });
         if (!error.response) {
           showError("Server is unreachable. Please try again later.");
         } else if (error.response.status === 401) {
@@ -31,7 +35,23 @@ const ProtectedRoute = () => {
       }
     };
     verify();
+
   }, []);
+
+  useEffect(() => {
+    if (authState.isAuthenticated === null) return;
+
+    if (!authState.isAuthenticated || !authState.user) {
+      showWarn("Please login to continue.");
+      toLogin();
+      return;
+    }
+
+    if (authState.user.role !== role) {
+      showWarn("You are not authorized to access this page.");
+      toLogin();
+    }
+  }, [authState]);
 
   if (authState.isAuthenticated === null)
     return (
@@ -40,9 +60,10 @@ const ProtectedRoute = () => {
       </div>
     );
 
-  if (!authState.isAuthenticated) return <Navigate to="/userLogin" />;
+  // if (!authState.isAuthenticated || !authState.user)return null;
+  // if (authState.user.role !== role)return null;
 
-  return <Outlet />;
+  return <Outlet  context={{ user: authState.user }} />;
 };
 
 export default ProtectedRoute;

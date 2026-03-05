@@ -1,9 +1,22 @@
 import { prisma } from "../lib/prisma";
-// import logger from "../utils/logger";
 
 class BookService {
-  async getBooksWithReviews() {
+
+  async booksCount() {
+    const totalBooks = await prisma.book.count();
+    
+    return totalBooks;
+    
+    }
+
+  async getBooksWithReviews(page: number = 1, limit: number = 24) {
+    const skip = (page - 1) * limit;
+
+
+
     const books = await prisma.book.findMany({
+      skip,
+      take: limit,
       include: {
         reviews: {
           include: {
@@ -12,6 +25,9 @@ class BookService {
             },
           },
         },
+      },
+      orderBy: {
+        id: "asc", 
       },
     });
 
@@ -36,5 +52,6 @@ class BookService {
     }));
   }
 }
+
 
 export const bookService = new BookService();
