@@ -155,7 +155,8 @@ export const checkAuth = (req: Request, res: Response) => {
   } catch (error) {
     logger.error(`Error in checkAuth: ${error}`);
     return res.status(HTTP_STATUS.UNAUTHORIZED).json({ 
-      isAuthenticated: false 
+      isAuthenticated: false ,
+      user:null,
     });
   }
 };
@@ -165,7 +166,7 @@ export const getUserDetails = async (req: Request, res: Response) => {
     const userId = (req as any).user.id;
     const user = await authService.getUserById(userId);
     
-    return res.status(HTTP_STATUS.OK).json({ userData: user });
+    return res.status(HTTP_STATUS.OK).json(user);
   } catch (error: any) {
     logger.error('Error in getUserDetails controller:', error);
     

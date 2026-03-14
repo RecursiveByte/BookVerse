@@ -12,13 +12,13 @@ import { z } from "zod";
 export const addReview = async (req: Request, res: Response) => {
   try {
     const user = (req as any).user;
-
     const validatedData = addReviewSchema.parse(req.body);
 
-    await reviewService.addReview(user.id, validatedData);
+    const review = await reviewService.addReview(user.id, validatedData);
 
     return res.status(HTTP_STATUS.CREATED).json({
       message: "Review added successfully",
+      reviewId:review.id
     });
   } catch (error: any) {
     logger.error("Error in addReview:", error);
@@ -47,11 +47,13 @@ export const editReview = async (req: Request, res: Response) => {
     const user = (req as any).user;
 
     const validatedData = editReviewSchema.parse(req.body);
-    await reviewService.editReview(user.id, validatedData);
+    const review = await reviewService.editReview(user.id, validatedData);
 
     return res.status(HTTP_STATUS.OK).json({
       message: "Review updated successfully",
+      // reviewId:review.id
     });
+
   } catch (error: any) {
     logger.error("Error in editReview:", error);
 
@@ -84,13 +86,14 @@ export const deleteReview = async (req: Request, res: Response) => {
   try {
     const user = (req as any).user;
 
-    const { review_id } =
+    const { reviewId } =
       deleteReviewSchema.parse(req.body);
 
-    await reviewService.deleteReview(user.id, review_id);
+    await reviewService.deleteReview(user.id, reviewId);
 
     return res.status(HTTP_STATUS.OK).json({
       message: "Review deleted successfully",
+      // deletedId:reviewId
     });
   } catch (error: any) {
     logger.error("Error in deleteReview:", error);

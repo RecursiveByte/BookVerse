@@ -1,7 +1,7 @@
 import { useState, type JSX } from "react";
 import Overview from "./Overview";
 import Sidebar from "./Sidebar";
-import BooksDetails from "./BookDetails/BooksDetails";
+import BooksDetails from "./Book/BooksDetails";
 import UserDetails from "./UserDetails";
 import ReviewsDetails from "./ReviewsDetails";
 import { Navigate, useOutletContext } from "react-router-dom";
@@ -19,8 +19,8 @@ const AdminDashboard = () => {
     return <Navigate to="/userLogin"/>; 
   } 
 
-    
   const { user } = context;
+  
   const pages: Record<string, JSX.Element> = {
     overview: <Overview />,
     books: <BooksDetails user={user} />,

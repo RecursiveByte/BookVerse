@@ -2,12 +2,12 @@ import { prisma } from "../lib/prisma";
 
 class ReviewService {
   async addReview(user_id: number, data: {
-    book_id: number;
+    bookId: number;
     rating: number;
     comment?: string;
   }) {
     const book = await prisma.book.findUnique({
-      where: { id: data.book_id },
+      where: { id: data.bookId },
     });
 
     if (!book) {
@@ -17,7 +17,7 @@ class ReviewService {
     return await prisma.review.create({
       data: {
         user_id,
-        book_id: data.book_id,
+        book_id: data.bookId,
         rating: data.rating,
         comment: data.comment,
       },
@@ -51,6 +51,7 @@ class ReviewService {
   }
 
   async deleteReview(user_id: number, reviewId: number) {
+    
     const review = await prisma.review.findUnique({
       where: { id: reviewId },
     });

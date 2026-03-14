@@ -1609,3 +1609,105 @@
 {"level":30,"time":1772725836079,"pid":18596,"hostname":"Rezus-II","msg":"Database Connected"}
 {"level":30,"time":1772725946070,"pid":22748,"hostname":"Rezus-II","msg":"Database Connected"}
 {"level":30,"time":1772725946092,"pid":3452,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772732611885,"pid":24396,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772732689799,"pid":24396,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772732689799,"pid":24396,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772732722784,"pid":24396,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772732722784,"pid":24396,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772732810175,"pid":24396,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772732810175,"pid":24396,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772733134056,"pid":24396,"hostname":"Rezus-II","msg":"Book 79 updated successfully"}
+{"level":30,"time":1772733156280,"pid":24396,"hostname":"Rezus-II","msg":"Book 79 updated successfully"}
+{"level":30,"time":1772733840208,"pid":24396,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772733840208,"pid":24396,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":50,"time":1772735087487,"pid":24396,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772735202662,"pid":24396,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":30,"time":1772735226810,"pid":10080,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772812117523,"pid":24936,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772812135814,"pid":24936,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772812135815,"pid":24936,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772812459605,"pid":24936,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772812459605,"pid":24936,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772813906269,"pid":24936,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772813906271,"pid":24936,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772814804177,"pid":24936,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772814804178,"pid":24936,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772814817366,"pid":24936,"hostname":"Rezus-II","msg":"Book 32 updated successfully"}
+{"level":30,"time":1772814845662,"pid":24936,"hostname":"Rezus-II","msg":"Book 32 updated successfully"}
+{"level":30,"time":1772820846832,"pid":24936,"hostname":"Rezus-II","msg":"Book 32 updated successfully"}
+{"level":30,"time":1772820965129,"pid":24936,"hostname":"Rezus-II","msg":"Book 32 updated successfully"}
+{"level":30,"time":1772821272005,"pid":24936,"hostname":"Rezus-II","msg":"Book 32 updated successfully"}
+{"level":30,"time":1772825211064,"pid":24936,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772825211065,"pid":24936,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772875879074,"pid":13612,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772875892113,"pid":13612,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772875892114,"pid":13612,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772889979763,"pid":2204,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772889995867,"pid":2204,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772889995867,"pid":2204,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":50,"time":1772891522113,"pid":2204,"hostname":"Rezus-II","msg":"Error in addReview:"}
+{"level":50,"time":1772891575316,"pid":2204,"hostname":"Rezus-II","msg":"Error in addReview:"}
+{"level":50,"time":1772891606478,"pid":2204,"hostname":"Rezus-II","msg":"Error in addReview:"}
+{"level":50,"time":1772891692281,"pid":2204,"hostname":"Rezus-II","msg":"Error in addReview:"}
+{"level":50,"time":1772891800057,"pid":2204,"hostname":"Rezus-II","msg":"Error in addReview:"}
+{"level":50,"time":1772891848065,"pid":2204,"hostname":"Rezus-II","msg":"Error in addReview:"}
+{"level":30,"time":1772891854639,"pid":4044,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1772892054848,"pid":4044,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772892054848,"pid":4044,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772892212783,"pid":4044,"hostname":"Rezus-II","msg":"Book 35 updated successfully"}
+{"level":50,"time":1772893359285,"pid":4044,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772893368186,"pid":4044,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772893380291,"pid":4044,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":50,"time":1772893426053,"pid":4044,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":30,"time":1772893500652,"pid":1148,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772893503211,"pid":1148,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":30,"time":1772893547133,"pid":15556,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772893557442,"pid":15556,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":30,"time":1772893669055,"pid":25120,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772894368253,"pid":25120,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772894368253,"pid":25120,"hostname":"Rezus-II","err":{"type":"ZodError","message":"[\n  {\n    \"expected\": \"number\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"reviewId\"\n    ],\n    \"message\": \"Invalid input: expected number, received undefined\"\n  }\n]","stack":"ZodError: [\n  {\n    \"expected\": \"number\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"reviewId\"\n    ],\n    \"message\": \"Invalid input: expected number, received undefined\"\n  }\n]\n    at deleteReview (C:\\git\\BookVerse\\backend\\src\\controllers\\review.controller.ts:87:26)\n    at Layer.handleRequest (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at authenticateUser (C:\\git\\BookVerse\\backend\\src\\middlewares\\auth.middleware.ts:30:5)\n    at Layer.handleRequest (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\git\\BookVerse\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\git\\BookVerse\\backend\\node_modules\\router\\index.js:295:15","name":"ZodError"},"msg":"Unknown error occurred"}
+{"level":30,"time":1772894391761,"pid":25340,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772894399886,"pid":25340,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":30,"time":1772894517321,"pid":2128,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772894536451,"pid":2128,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772894543298,"pid":2128,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772894546428,"pid":2128,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772897174777,"pid":2128,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772897184713,"pid":2128,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":50,"time":1772897203117,"pid":2128,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772897215244,"pid":2128,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":30,"time":1772897392830,"pid":7516,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1772897430370,"pid":7516,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772897431015,"pid":7516,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772897461714,"pid":7516,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772897486051,"pid":7516,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772897545038,"pid":7516,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772897974595,"pid":7516,"hostname":"Rezus-II","msg":"Error in editReview:"}
+{"level":50,"time":1772897989267,"pid":7516,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772897995392,"pid":7516,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772898022554,"pid":7516,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":50,"time":1772898151541,"pid":7516,"hostname":"Rezus-II","msg":"Error in deleteReview:"}
+{"level":30,"time":1772901249479,"pid":7516,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772901249480,"pid":7516,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1772901480670,"pid":7516,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772901480670,"pid":7516,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1772902906303,"pid":7516,"hostname":"Rezus-II","msg":"Book 79 updated successfully"}
+{"level":30,"time":1772902942888,"pid":7516,"hostname":"Rezus-II","msg":"Book 79 updated successfully"}
+{"level":30,"time":1773508678954,"pid":16728,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1773508723546,"pid":16728,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1773508723549,"pid":16728,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":50,"time":1773511457067,"pid":16728,"hostname":"Rezus-II","msg":"Error in uploadBooksFromCSV controller:"}
+{"level":50,"time":1773511465572,"pid":16728,"hostname":"Rezus-II","msg":"Error in uploadBooksFromCSV controller:"}
+{"level":50,"time":1773511674802,"pid":16728,"hostname":"Rezus-II","msg":"Error in uploadBooksFromCSV controller:"}
+{"level":30,"time":1773511685001,"pid":3984,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1773511692553,"pid":3984,"hostname":"Rezus-II","err":{"type":"TypeError","message":"Cannot read properties of undefined (reading 'role')","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at uploadBooksFromCSV (C:\\git\\BookVerse\\backend\\src\\controllers\\admin.controller.ts:14:14)\n    at Layer.handleRequest (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at done (C:\\git\\BookVerse\\backend\\node_modules\\multer\\lib\\make-middleware.js:59:7)\n    at indicateDone (C:\\git\\BookVerse\\backend\\node_modules\\multer\\lib\\make-middleware.js:63:68)\n    at C:\\git\\BookVerse\\backend\\node_modules\\multer\\lib\\make-middleware.js:176:11\n    at WriteStream.<anonymous> (C:\\git\\BookVerse\\backend\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:520:35)\n    at finish (node:internal/streams/writable:953:10)\n    at node:internal/streams/writable:934:13"},"msg":"Error in uploadBooksFromCSV controller"}
+{"level":50,"time":1773511741520,"pid":3984,"hostname":"Rezus-II","err":{"type":"TypeError","message":"Cannot read properties of undefined (reading 'role')","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at uploadBooksFromCSV (C:\\git\\BookVerse\\backend\\src\\controllers\\admin.controller.ts:14:14)\n    at Layer.handleRequest (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at done (C:\\git\\BookVerse\\backend\\node_modules\\multer\\lib\\make-middleware.js:59:7)\n    at indicateDone (C:\\git\\BookVerse\\backend\\node_modules\\multer\\lib\\make-middleware.js:63:68)\n    at C:\\git\\BookVerse\\backend\\node_modules\\multer\\lib\\make-middleware.js:176:11\n    at WriteStream.<anonymous> (C:\\git\\BookVerse\\backend\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:520:35)\n    at finish (node:internal/streams/writable:953:10)\n    at node:internal/streams/writable:934:13"},"msg":"Error in uploadBooksFromCSV controller"}
+{"level":30,"time":1773511758186,"pid":14404,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":50,"time":1773511758216,"pid":14404,"hostname":"Rezus-II","err":{"type":"TypeError","message":"Cannot read properties of undefined (reading 'role')","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at uploadBooksFromCSV (C:\\git\\BookVerse\\backend\\src\\controllers\\admin.controller.ts:14:14)\n    at Layer.handleRequest (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at done (C:\\git\\BookVerse\\backend\\node_modules\\multer\\lib\\make-middleware.js:59:7)\n    at indicateDone (C:\\git\\BookVerse\\backend\\node_modules\\multer\\lib\\make-middleware.js:63:68)\n    at C:\\git\\BookVerse\\backend\\node_modules\\multer\\lib\\make-middleware.js:176:11\n    at WriteStream.<anonymous> (C:\\git\\BookVerse\\backend\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:520:35)\n    at finish (node:internal/streams/writable:953:10)\n    at node:internal/streams/writable:934:13"},"msg":"Error in uploadBooksFromCSV controller"}
+{"level":50,"time":1773511794046,"pid":14404,"hostname":"Rezus-II","err":{"type":"TypeError","message":"Cannot read properties of undefined (reading 'role')","stack":"TypeError: Cannot read properties of undefined (reading 'role')\n    at uploadBooksFromCSV (C:\\git\\BookVerse\\backend\\src\\controllers\\admin.controller.ts:14:14)\n    at Layer.handleRequest (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\git\\BookVerse\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at done (C:\\git\\BookVerse\\backend\\node_modules\\multer\\lib\\make-middleware.js:59:7)\n    at indicateDone (C:\\git\\BookVerse\\backend\\node_modules\\multer\\lib\\make-middleware.js:63:68)\n    at C:\\git\\BookVerse\\backend\\node_modules\\multer\\lib\\make-middleware.js:176:11\n    at WriteStream.<anonymous> (C:\\git\\BookVerse\\backend\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:520:35)\n    at finish (node:internal/streams/writable:953:10)\n    at node:internal/streams/writable:934:13"},"msg":"Error in uploadBooksFromCSV controller"}
+{"level":30,"time":1773511805339,"pid":15236,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1773511807576,"pid":15236,"hostname":"Rezus-II","msg":"5 books uploaded successfully"}
+{"level":30,"time":1773512188478,"pid":15236,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}
+{"level":30,"time":1773512335676,"pid":15236,"hostname":"Rezus-II","msg":"2 books uploaded successfully"}
+{"level":30,"time":1773513112715,"pid":15236,"hostname":"Rezus-II","msg":"2 books uploaded successfully"}
+{"level":30,"time":1773513265763,"pid":15236,"hostname":"Rezus-II","msg":"0 books uploaded successfully"}

@@ -1,29 +1,40 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { X } from "lucide-react";
 import BookSidebar from "./BookSidebar";
 import ReviewsSection from "../review/ReviewsSection";
-import EditBookModal from "@/pages/admin/BookDetails/EditBookModal";
-import type { Book } from "@/types/book.type";
-
+import EditBookModal from "@/pages/admin/Book/EditBookModal";
+import { deleteBook } from "@/services/admin.service";
+import { showError } from "@/utils/toast";
+import { BooksContext } from "@/context/BookContext";
 
 const BookDetailModal = ({
-  selectedBook,
   onClose,
   isAdmin = false,
-  onDeleteBook,
-  currentUserId,
   // onEditReview,
   // onDeleteReview,
 }: {
-  selectedBook: Book | null;
   onClose: () => void;
   isAdmin?: boolean;
-  onDeleteBook?: () => void;
   currentUserId?: string | null;
-  // onEditReview?: (reviewId: number) => void;
-  // onDeleteReview?: (reviewId: number) => void;
 }) => {
   const [isEditOpen, setIsEditOpen] = useState(false);
+  
+
+  const {selectedBook,setCurrBooks} = useContext(BooksContext)
+
+  const handleDeleteBook = async () => {
+    if (!selectedBook) return;
+  
+    try {
+      await deleteBook(selectedBook.id);
+      console.log(selectedBook,"books delete")
+      setCurrBooks(prev=>prev.filter(ele => ele.id != selectedBook.id))
+
+      onClose(); 
+    } catch (err) {
+      showError("Failed to delete book ");
+    }
+  };
 
   if (!selectedBook) return null;
 
@@ -36,22 +47,19 @@ const BookDetailModal = ({
     <>
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm px-4">
         
-        <div className="relative w-[95%] h-[95%] bg-[hsl(var(--card))] border border-[hsl(var(--border))] rounded-2xl shadow-[0_0_60px_hsl(var(--primary)/0.15)] flex flex-col sm:flex-row overflow-hidden">
+        <div className="relative w-[95%] h-[95%] bg-[hsl(var(--card))] border border-[hsl(var(--border))] rounded-2xl shadow-[0_0_60px_hsl(var(--primary)/0.15)] flex flex-col sm:flex-row ">
 
           <BookSidebar
             book={selectedBook}
             avgRating={avgRating}
             isAdmin={isAdmin}
             onEdit={() => setIsEditOpen(true)}
-            onDelete={onDeleteBook}
+            onDelete={handleDeleteBook}
           />
 
           <ReviewsSection
             reviews={selectedBook.reviews}
             totalReviews={selectedBook.totalReviews}
-            currentUserId={currentUserId}
-            // onEditReview={onEditReview}
-            // onDeleteReview={onDeleteReview}
           />
 
           <button

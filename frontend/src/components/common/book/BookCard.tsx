@@ -1,15 +1,22 @@
-import type { FC } from "react";
+import { useContext, type FC } from "react";
 import type { Book } from "@/types/book.type";
+import { BooksContext } from "@/context/BookContext";
 
 interface BookCardProps {
   book: Book;
-  onClick?: (book: Book) => void;
 }
 
-const BookCard: FC<BookCardProps> = ({ book, onClick }) => {
+const BookCard: FC<BookCardProps> = ({ book }) => {
+
+  const {setSelectedBook,setIsModalOpen} = useContext(BooksContext)
+
   return (
     <div
-      onClick={() => onClick?.(book)}
+      onClick={() =>{ 
+        setIsModalOpen(true);
+        setSelectedBook(book);
+      }}
+      
       className="group relative flex flex-col w-45 rounded-xl border border-[hsl(var(--border))] bg-[hsl(var(--card))] overflow-hidden cursor-pointer transition-all duration-300 hover:border-[hsl(var(--primary)/0.5)] hover:shadow-[0_0_24px_hsl(var(--primary)/0.1)] hover:-translate-y-1"
     >
       <div className="relative w-full h-55 overflow-hidden bg-[hsl(var(--input))]">

@@ -16,8 +16,8 @@
     --muted-foreground: 150 10% 50%;
 
 
-    --toastify-color-dark: hsl(160, 15%, 8%);         /* toast background */
-    --toastify-text-color-dark: hsl(150, 20%, 90%);   /* text color */
+    --toastify-color-dark: hsl(160, 15%, 8%);         
+    --toastify-text-color-dark: hsl(150, 20%, 90%);   
   
     --toastify-color-success: hsl(142, 70%, 45%);
     --toastify-color-error: hsl(6, 78%, 57%);
@@ -33,7 +33,6 @@
     
   }
   
-  /* Optional body styling */
   body {
     background: hsl(var(--background));
     color: hsl(var(--foreground));

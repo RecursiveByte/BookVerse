@@ -1,18 +1,19 @@
 import { User, Pencil, Trash2 } from "lucide-react";
 import StarRating from "@/components/common/StarRating";
 import type { ReviewCardProps } from "@/types/review.type";
-
+import { useUser } from "@/hooks/useUser";
 
 const ReviewCard = ({
   review,
-  currentUserId,
   onEditReview,
   onDeleteReview,
 }: ReviewCardProps) => {
+
+  const user = useUser();
+
   const isOwner =
-    currentUserId &&
-    String(review.reviewedBy.userId) === String(currentUserId);
-    
+    user?.id &&
+    String(review.reviewedBy.userId) === String(user?.id);
   return (
     <div className="flex gap-4 p-4 rounded-xl border border-[hsl(var(--border))] bg-[hsl(var(--input))] hover:border-[hsl(var(--primary)/0.3)] transition-colors">
       

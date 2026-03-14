@@ -12,14 +12,14 @@ const router = Router();
 
 router.post(
   "/upload-books-csv",
-  // authenticateUser,
+  authenticateUser,
   upload.single("file"),
   uploadBooksFromCSV
 );
 
 router.put(
   "/edit-book",
-  // authenticateUser,
+  authenticateUser,
   editBook
 );
 

@@ -1,19 +1,19 @@
 import type { FC } from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import type { Book } from "@/types/book.type";
 import GlowBackground from "@/components/common/Glowbackground";
 import { getBooksWithReviews, getBooksCount } from "@/services/book.service";
 
+import BooksGridSkeleton from "./BooksGridSkeleton";
 import BooksHeader from "./BooksHeader";
 import BooksGrid from "./BooksGrid";
-import BooksPagination from "./PaginationControls";
+import BooksPagination from "./BooksPagination";
 
+import { BooksContext } from "@/context/BookContext";
 
 interface BooksProps {
   onBookClick?: (book: Book) => void;
   isAdmin?: boolean;
-  onEdit?: (book: Book) => void;
-  onDelete?: (book: Book) => void;
 }
 
 const PAGE_SIZE = 8;
@@ -23,14 +23,11 @@ const PAGES_PER_FETCH = FETCH_SIZE / PAGE_SIZE;
 const Books: FC<BooksProps> = ({
   onBookClick,
   isAdmin = false,
-  onEdit,
-  onDelete,
 }) => {
 
-  /* ---- YOUR ORIGINAL STATE + LOGIC (UNCHANGED) ---- */
+  const {currBooks,setCurrBooks} = useContext(BooksContext)
 
   const [page, setPage] = useState(1);
-  const [currBooks, setCurrBooks] = useState<Book[]>([]);
   const [upcomingBooks, setUpcomingBooks] = useState<Book[]>([]);
   const [prevUp, setPrevUp] = useState<Book[]>([]);
   const [loading, setLoading] = useState(false);
@@ -136,20 +133,22 @@ const Books: FC<BooksProps> = ({
   };
 
   return (
+
     <div className="w-full min-h-screen px-10 lg:px-20 py-20 bg-[hsl(var(--background))] text-[hsl(var(--foreground))]">
       <GlowBackground gridSize="50px" />
 
       <div className="relative z-10 w-full min-h-full mx-auto">
-
         <BooksHeader currBooksLenght={visibleBooks.length} />
 
-        <BooksGrid
+        {loading ? (
+          <BooksGridSkeleton count={PAGE_SIZE} />
+        ) : (
+          <BooksGrid
           books={visibleBooks}
           onBookClick={onBookClick}
           isAdmin={isAdmin}
-          onEdit={onEdit}
-          onDelete={onDelete}
-        />
+          />
+        )}
 
         <BooksPagination
           page={page}
@@ -157,8 +156,7 @@ const Books: FC<BooksProps> = ({
           loading={loading}
           handlePrev={handlePrev}
           handleNext={handleNext}
-        />
-
+          />
       </div>
     </div>
   );

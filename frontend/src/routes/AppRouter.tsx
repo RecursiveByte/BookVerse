@@ -21,7 +21,7 @@ const AppRouter: React.FC = () => {
         <Route path={ROUTES.USER_DASHBOARD} element={<UserDashboard  />} />
       </Route>
 
-      <Route  >
+      <Route element={<ProtectedRoute role={"admin"} />} >
          <Route path={ROUTES.ADMIN_DASHBOARD} element={<AdminDashboard />} />
        </Route> 
 

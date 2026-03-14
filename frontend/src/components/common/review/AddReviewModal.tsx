@@ -1,101 +1,97 @@
-import { useContext, useState} from "react";
+import { useContext, useState } from "react";
 import { X, Save, Loader2, Star } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { showError, showSuccess } from "@/utils/toast";
-import { editReview } from "@/services/user.service";
-import type { Review } from "@/types/review.type";
-
+import { addReview } from "@/services/user.service";
+import { getUserDetails } from "@/services/user.service";
 import { BooksContext } from "@/context/BookContext";
 
-type EditReviewForm = {
+type AddReviewForm = {
   rating: number;
   comment: string;
 };
 
-const EditReviewModal = ({
-  review,
-  onClose
-}: {
-  review: Review;
-  onClose: () => void;
-}) => {
+const AddReviewModal = ({ onClose }: { onClose: () => void }) => {
   const [isLoading, setIsLoading] = useState(false);
- const {selectedBook,setSelectedBook,setCurrBooks} = useContext(BooksContext);
-
+  const {setCurrBooks, selectedBook, setSelectedBook } = useContext(BooksContext);
 
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<EditReviewForm>({
+  } = useForm<AddReviewForm>({
     defaultValues: {
-      rating: review.rating,
-      comment: review.comment,
+      rating: 5,
+      comment: "",
     },
   });
 
-  const onSubmit = async (data: EditReviewForm) => {
-    
+  const onSubmit = async (data: AddReviewForm) => {
+    if (!selectedBook) return;
+    setIsLoading(true);
+ 
     try {
-      setIsLoading(true);
-      await editReview({
-        reviewId: review.reviewId,
-        rating: data.rating,
-        comment: data.comment,
+
+      console.log(selectedBook)
+      const [reviewRes, userRes] = await Promise.all([
+        addReview({
+          bookId: selectedBook.id,
+          rating: data.rating,
+          comment: data.comment,
+        }),
+
+        getUserDetails(),
+      ]);
+
+      setSelectedBook((prev) => {
+        if (!prev) return null;
+        return {
+          ...prev,
+          reviews: [
+            ...prev.reviews,
+            {
+              reviewId: reviewRes.reviewId,           
+              rating: data.rating,
+              comment: data.comment,
+              createdAt: new Date().toISOString(),
+              reviewedBy: {
+                userId: userRes?.id,
+                name: userRes?.name,
+              },
+            }
+          ],
+        };
       });
 
-
-      setSelectedBook(
-        (prev) => {
-          if(!prev)return null
-          const updatedReviews = prev.reviews.map((ele) => {
-            if (ele.reviewId === review.reviewId) {
-              return {
-                ...ele,
-                comment: data.comment,
-                rating: data.rating,
-              };
-            } else {
-              return ele;
-            }
-          });
-          return {
-            ...prev,
-            reviews: updatedReviews,
-          };
-        }
-      )
-
-      setCurrBooks((prev)=>
-        prev.map((book)=>{
-          if(book.id === selectedBook?.id){
+      setCurrBooks((prev) =>
+        prev.map((book) => {
+          if (book.id === selectedBook.id) {
             return {
               ...book,
-              reviews:book.reviews.map((r)=>{
-                if(r.reviewId === review.reviewId)
+              reviews: [
+                ...book.reviews,
                 {
-                  return {
-                    ...r,
-                    rating:data.rating,
-                    comment:data.comment
-                  }
-                }
-                return r;
-              })
-            }
+                  reviewId: reviewRes.reviewId,
+                  rating: data.rating,
+                  comment: data.comment,
+                  createdAt: new Date().toISOString(),
+                  reviewedBy: {
+                    userId: userRes.id,
+                    name: userRes.name,
+                  },
+                },
+              ],
+            };
           }
+      
           return book;
-
         })
-      )
+      );
 
-      // console.log(selectedBook)
-      showSuccess("Review updated successfully");
-
-
+      showSuccess("Review added successfully");
       onClose();
     } catch (error) {
-      showError("Failed to update review");
+      showError("Failed to add review");
     } finally {
       setIsLoading(false);
     }
@@ -111,7 +107,7 @@ const EditReviewModal = ({
               <Star className="w-3.5 h-3.5 text-[hsl(var(--primary))]" />
             </div>
             <h2 className="text-base font-semibold text-[hsl(var(--foreground))]">
-              Edit Review
+              Add Review
             </h2>
           </div>
           <button
@@ -172,7 +168,6 @@ const EditReviewModal = ({
             >
               Cancel
             </button>
-
             <button
               type="submit"
               disabled={isLoading}
@@ -192,4 +187,4 @@ const EditReviewModal = ({
   );
 };
 
-export default EditReviewModal;
+export default AddReviewModal;

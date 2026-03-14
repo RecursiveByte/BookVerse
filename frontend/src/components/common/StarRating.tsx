@@ -1,18 +1,31 @@
 import { Star } from "lucide-react";
+// import { useContext } from "react";
+// import { BooksContext } from "@/context/BookContext";
+// import { useEffect } from "react";
 
-const StarRating = ({ rating }: { rating: number }) => (
-  <div className="flex items-center gap-0.5">
+const StarRating = ({ rating }: { rating: number }) => {
+
+  // const {selectedBook} = useContext(BooksContext)
+
+  // useEffect(() => {
+
+  // console.log("updating ")
+  // }, [selectedBook])
+
+  return (
+    <div className="flex items-center gap-0.5">
     {[1, 2, 3, 4, 5].map((s) => (
       <Star
-        key={s}
-        className={`w-3.5 h-3.5 ${
-          s <= Math.round(rating)
-            ? "text-yellow-400 fill-yellow-400"
-            : "text-[hsl(var(--border))]"
+      key={s}
+      className={`w-3.5 h-3.5 ${
+        s <= Math.round(rating)
+        ? "text-yellow-400 fill-yellow-400"
+        : "text-[hsl(var(--border))]"
         }`}
-      />
-    ))}
+        />
+      ))}
   </div>
 );
+}
 
 export default StarRating;

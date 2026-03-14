@@ -9,15 +9,18 @@ const BookSidebar = ({
   onEdit,
   onDelete,
 }: BookSidebarProps) => {
+  
+  
   return (
-    <div className="sm:w-[320px] shrink-0 flex flex-col items-center gap-6 p-8 border-r border-[hsl(var(--border))] bg-[hsl(var(--primary)/0.03)]">
+
+    <div className="w-full sm:w-[320px] h-[60%] sm:h-full shrink-0 flex flex-col items-center gap-6 p-8 border-b sm:border-b-0 sm:border-r border-[hsl(var(--border))] bg-[hsl(var(--primary)/0.03)] overflow-y-auto">
 
       <div className="w-48 h-64 rounded-xl bg-[hsl(var(--primary)/0.1)] border border-[hsl(var(--border))] flex items-center justify-center shadow-lg">
         {book.image_url ? (
           <img
-            src={book.image_url}
-            alt={book.title}
-            className="w-full h-full object-cover rounded-xl"
+          src={book.image_url}
+          alt={book.title}
+          className="w-full h-full object-cover rounded-xl"
           />
         ) : (
           <BookOpen className="w-16 h-16 text-[hsl(var(--primary)/0.4)]" />
@@ -41,7 +44,7 @@ const BookSidebar = ({
       </div>
 
       {isAdmin && (
-  <div className="flex gap-3 sm:mt-auto w-full">
+        <div className="flex gap-3 sm:mt-auto w-full">
     <button
       onClick={onEdit}
       className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg 
@@ -50,7 +53,7 @@ const BookSidebar = ({
       border border-[hsl(var(--primary)/0.3)] 
       hover:bg-[hsl(var(--primary)/0.2)] 
       text-sm font-medium transition-colors"
-    >
+      >
       <Pencil className="w-3.5 h-3.5" />
       Edit
     </button>
@@ -62,14 +65,15 @@ const BookSidebar = ({
       text-red-400 
       border border-red-500/20 
       hover:bg-red-500/20 
-      text-sm font-medium transition-colors"
-    >
+      text-sm font-medium transition-color"
+      >
       <Trash2 className="w-3.5 h-3.5" />
       Delete
     </button>
   </div>
 )}
     </div>
+
   );
 };
 

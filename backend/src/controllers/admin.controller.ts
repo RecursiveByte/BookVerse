@@ -10,12 +10,12 @@ import { z } from "zod";
 export const uploadBooksFromCSV = async (req: Request, res: Response) => {
   try {
     const user = (req as any).user;
-
-    // if (user.role !== "admin") {
-      // return res
-        // .status(HTTP_STATUS.FORBIDDEN)
-        // .json({ message: "Only admins can upload books" });
-    // }
+    console.log(user)
+    if (user.role !== "admin") {
+      return res
+        .status(HTTP_STATUS.FORBIDDEN)
+        .json({ message: "Only admins can upload books" });
+    }
 
     if (!req.file) {
       return res
@@ -33,13 +33,13 @@ export const uploadBooksFromCSV = async (req: Request, res: Response) => {
       failedCount: result.failedCount,
     });
   } catch (error: any) {
-    logger.error("Error in uploadBooksFromCSV controller:", error);
-
+    logger.error({ err: error }, "Error in uploadBooksFromCSV controller");
     if(error.message == "book already present")
       return res.status(HTTP_STATUS.CONFLICT).json({
         message: "Book already exists in the database",
       });
 
+      // console.log(error)
     return res.status(HTTP_STATUS.INTERNAL_SERVER_ERROR).json({
       message: "Server error",
       error: error.message,
