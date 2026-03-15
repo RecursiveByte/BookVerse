@@ -7,7 +7,8 @@ import Register from "@/pages/auth/Register";
 import ForgotPassword from "@/pages/auth/ForgotPassword";
 import ProtectedRoute from "@/components/common/ProtectedRoute";
 import AdminLogin from "@/pages/auth/AdminLogin";
-import AdminDashboard from "@/pages/admin/AdminDashboard"
+import AdminDashboard from "@/pages/admin/AdminDashboard";
+import AuthRedirector from "@/components/common/AuthRedirecter";
 
 const AppRouter: React.FC = () => {
   return (
@@ -18,14 +19,14 @@ const AppRouter: React.FC = () => {
       <Route path={ROUTES.FORGOT_PASSWORD} element={<ForgotPassword />} />
 
       <Route element={<ProtectedRoute role={"user"} />}>
-        <Route path={ROUTES.USER_DASHBOARD} element={<UserDashboard  />} />
+        <Route path={ROUTES.USER_DASHBOARD} element={<UserDashboard />} />
       </Route>
 
-      <Route element={<ProtectedRoute role={"admin"} />} >
-         <Route path={ROUTES.ADMIN_DASHBOARD} element={<AdminDashboard />} />
-       </Route> 
+      <Route element={<ProtectedRoute role={"admin"} />}>
+        <Route path={ROUTES.ADMIN_DASHBOARD} element={<AdminDashboard />} />
+      </Route>
 
-      <Route path="*" element={<Home />} />
+      <Route path="*" element={<AuthRedirector><Home /></AuthRedirector>} />
     </Routes>
   );
 };

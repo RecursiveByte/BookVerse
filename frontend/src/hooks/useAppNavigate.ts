@@ -10,6 +10,7 @@ const useAppNavigate = () => {
     toLogin: () => navigate("/userLogin"),
     toRegister: () => navigate("/register"),
     toForgotPassword: () => navigate("/forgot-password"),
+    toAdminLogin:()=> navigate("/adminLogin")
   };
 };
 

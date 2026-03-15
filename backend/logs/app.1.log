@@ -1817,3 +1817,161 @@
 {"level":30,"time":1773581523427,"pid":20800,"hostname":"Rezus-II","msg":"Database Connected"}
 {"level":30,"time":1773581529716,"pid":26556,"hostname":"Rezus-II","msg":"Database Connected"}
 {"level":30,"time":1773581529727,"pid":26548,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":40,"time":1773582440053,"pid":26556,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1773582454159,"pid":26556,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773582454159,"pid":26556,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773582462827,"pid":26556,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582466119,"pid":26556,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582466298,"pid":26556,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582466493,"pid":26556,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582476495,"pid":26556,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582487697,"pid":26556,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582500958,"pid":26556,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582508683,"pid":26556,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582543033,"pid":26556,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582560984,"pid":24384,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1773582587416,"pid":11352,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1773582608570,"pid":11352,"hostname":"Rezus-II","msg":"User logged out"}
+{"level":30,"time":1773582621234,"pid":11352,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773582621235,"pid":11352,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773582788227,"pid":11352,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582791218,"pid":11352,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582792770,"pid":11352,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582802743,"pid":11352,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582811680,"pid":11352,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582820975,"pid":11352,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582824692,"pid":11352,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582828159,"pid":11352,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582837249,"pid":11352,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582857868,"pid":11352,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582859322,"pid":11352,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582867618,"pid":11352,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773582996787,"pid":4288,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1773583008431,"pid":4288,"hostname":"Rezus-II","msg":"User logged out"}
+{"level":40,"time":1773583008447,"pid":4288,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1773583021412,"pid":4288,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773583021412,"pid":4288,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773583021426,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583035614,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583035615,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583035640,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583045379,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583046004,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583046199,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583046397,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583046564,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583046735,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583046907,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583047085,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583047269,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583047428,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583047598,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583047763,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583047955,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583048146,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583048320,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583048481,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583048660,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583048863,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583049040,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583049209,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583049382,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583049546,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583049709,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583049879,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583050052,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583050214,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583050400,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583050570,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583050750,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583050922,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583051112,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583051285,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583051463,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583051633,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583051806,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583051976,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583052168,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583052341,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583052522,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583052716,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583052895,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583053088,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583053268,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583053445,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583053622,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583053796,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583053964,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583057401,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583058081,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583060739,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583067441,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583067614,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583067787,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583067958,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583248234,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583251678,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583251804,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583251967,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583255539,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583255540,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583266245,"pid":4288,"hostname":"Rezus-II","msg":"blocked IP"}
+{"level":30,"time":1773583284471,"pid":23572,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1773583292459,"pid":27376,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1773583306054,"pid":27376,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773583306055,"pid":27376,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773583353276,"pid":27376,"hostname":"Rezus-II","msg":"User logged out"}
+{"level":40,"time":1773583353286,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583353287,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583469019,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583469020,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1773583480206,"pid":27376,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773583480206,"pid":27376,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773583525157,"pid":27376,"hostname":"Rezus-II","msg":"User logged out"}
+{"level":40,"time":1773583525164,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583525166,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583527408,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583626807,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583626808,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583626968,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583626969,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583627147,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583627147,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583627322,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583627322,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583627522,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583627523,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583627700,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583627701,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583627897,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583627897,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583629056,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1773583640741,"pid":27376,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773583640741,"pid":27376,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773583658305,"pid":27376,"hostname":"Rezus-II","msg":"User logged out"}
+{"level":40,"time":1773583658314,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583661256,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583661257,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583661272,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583661298,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583663546,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583691946,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583691946,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583883230,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583883236,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583892226,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583894232,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583895222,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583904223,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583904226,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583915316,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1773583931377,"pid":27376,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1773583931377,"pid":27376,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1773583963087,"pid":27376,"hostname":"Rezus-II","msg":"User logged out"}
+{"level":40,"time":1773583963099,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583963101,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1773583978798,"pid":27376,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773583978799,"pid":27376,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773583999847,"pid":27376,"hostname":"Rezus-II","msg":"User logged out"}
+{"level":40,"time":1773583999857,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773583999858,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}

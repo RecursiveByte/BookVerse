@@ -1,22 +1,16 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import Button from "@/components/ui/Button";
 import useAppNavigate from "@/hooks/useAppNavigate";
 import { getUserDetails } from "@/services/user.service";
 import { logout } from "@/services/auth.service";
-import { showSuccess } from "@/utils/toast";
-
-interface NavUser {
-  id: number;
-  name: string;
-  email: string;
-  role: string;
-}
+import type { UserRes } from "@/types/user.type";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [user, setUser] = useState<NavUser | null>(null);
+  const [user, setUser] = useState<UserRes | null>(null);
   const navigate = useNavigate();
+  const location = useLocation();
   const { toHome, toRegister, toLogin } = useAppNavigate();
 
   useEffect(() => {
@@ -29,12 +23,11 @@ const Navbar: React.FC = () => {
       }
     };
     fetchUser();
-  }, []);
+  }, [location.pathname]);
 
   const handleLogout = async () => {
     try {
       await logout();
-      showSuccess("Logout successfully")
     } catch {}
     setUser(null);
     toLogin();

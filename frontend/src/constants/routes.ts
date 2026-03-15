@@ -8,4 +8,4 @@ export const ROUTES = {
     ADMIN_VIEW_BOOKS: "/admin/viewBooks",
     ADMIN_ADD_BOOK: "/admin/add-book",
     FORGOT_PASSWORD:"/forgot-password"
-  } as const;
+  } as const; 

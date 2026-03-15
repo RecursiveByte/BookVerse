@@ -1,32 +1,26 @@
 import { useState } from "react";
 import { Mail, Lock, Eye, EyeOff } from "lucide-react";
 import { useGoogleLogin } from "@react-oauth/google";
-import { loginUser, googleLoginUser,getGithubAuthUrl } from "@/services/auth.service";
+import { loginUser, googleLoginUser, getGithubAuthUrl } from "@/services/auth.service";
 import { showSuccess, showError, showWarn } from "@/utils/toast";
 import useAppNavigate from "@/hooks/useAppNavigate";
 import Button from "@/components/ui/Button";
 import GlowBackground from "@/components/common/Glowbackground";
 
-
 const UserLogin = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [isLoginClicked, setIsLoginClicked] = useState(false);
-    const [githubLoading, setGithubLoading] = useState(false);
-  const [formData, setFormData] = useState({
-    email: "",
-    password: "",
-  });
+  const [githubLoading, setGithubLoading] = useState(false);
+  const [formData, setFormData] = useState({ email: "", password: "" });
 
-
-  const {  toForgotPassword, toRegister } = useAppNavigate();
+  const { toDashboard, toForgotPassword, toRegister, toAdminLogin } = useAppNavigate();
 
   const googleLogin = useGoogleLogin({
     onSuccess: async (codeResponse) => {
       try {
         await googleLoginUser(codeResponse.code);
         showSuccess("Logged in successfully!");
-      window.location.href = "/userDashboard";
-
+        toDashboard();
       } catch (error: any) {
         showError(error.response?.data?.message || "Google login failed");
       }
@@ -36,10 +30,7 @@ const UserLogin = () => {
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }));
+    setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -48,16 +39,14 @@ const UserLogin = () => {
       showWarn("Please fill in all fields");
       return;
     }
-
     try {
-      setIsLoginClicked(true)
+      setIsLoginClicked(true);
       await loginUser({ email: formData.email, password: formData.password });
       showSuccess("Logged in successfully!");
-      // toDashboard();
-      window.location.href = "/userDashboard";
+      toDashboard();
     } catch (error: any) {
       showError(error.response?.data?.message || "Invalid credentials");
-    }finally{
+    } finally {
       setIsLoginClicked(false);
     }
   };
@@ -69,23 +58,19 @@ const UserLogin = () => {
       window.location.href = data.url;
     } catch (error: any) {
       showError(error.response?.data?.message || "GitHub login failed");
-      setGithubLoading(false)
+      setGithubLoading(false);
     }
-    
   };
 
   return (
     <div className="w-screen h-screen flex justify-center items-center relative overflow-hidden">
-     
-      <GlowBackground gridSize="40px" glowHeight="100px" glowWidth="100px"/>
+      <GlowBackground gridSize="40px" glowHeight="100px" glowWidth="100px" />
 
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-125 h-125 rounded-full bg-[hsl(var(--primary)/0.2)] blur-[150px]" />
 
       <div className="relative z-10 w-full max-w-md bg-[hsl(var(--card))] border border-[hsl(var(--border))] rounded-lg p-8 shadow-[0_0_20px_hsl(var(--primary)/0.15),0_0_100px_hsl(var(--primary)/0.05)]">
         <div className="flex items-center justify-center gap-3 mb-8">
-          <h1 className="text-2xl font-bold text-[hsl(var(--primary))]">
-            BookVerse Login
-          </h1>
+          <h1 className="text-2xl font-bold text-[hsl(var(--primary))]">BookVerse Login</h1>
         </div>
 
         <button
@@ -154,6 +139,16 @@ const UserLogin = () => {
           </div>
 
           <Button label="Log In" disabled={isLoginClicked} variant="primary" type="submit" className="w-full" />
+
+          <div className="flex justify-center">
+            <button
+              type="button"
+              onClick={toAdminLogin}
+              className="text-xs text-[hsl(var(--muted-foreground))] hover:text-[hsl(var(--primary))] transition-colors"
+            >
+              Are you an admin? <span className="underline">Sign in here</span>
+            </button>
+          </div>
 
           <p className="text-center text-sm text-[hsl(var(--muted-foreground))] mt-6">
             Don't have an account?{" "}
