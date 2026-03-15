@@ -101,7 +101,7 @@ export const githubAuthUrl = (req: Request, res: Response) => {
     res.cookie("github_oauth_state", state, {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
-      sameSite: "lax",
+      sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
       maxAge: 60 * 10 * 1000,
     });
 
