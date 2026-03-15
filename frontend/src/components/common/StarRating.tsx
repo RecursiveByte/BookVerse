@@ -1,16 +1,6 @@
 import { Star } from "lucide-react";
-// import { useContext } from "react";
-// import { BooksContext } from "@/context/BookContext";
-// import { useEffect } from "react";
 
 const StarRating = ({ rating }: { rating: number }) => {
-
-  // const {selectedBook} = useContext(BooksContext)
-
-  // useEffect(() => {
-
-  // console.log("updating ")
-  // }, [selectedBook])
 
   return (
     <div className="flex items-center gap-0.5">

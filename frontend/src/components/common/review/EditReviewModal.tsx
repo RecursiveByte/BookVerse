@@ -89,7 +89,6 @@ const EditReviewModal = ({
         })
       )
 
-      // console.log(selectedBook)
       showSuccess("Review updated successfully");
 
 

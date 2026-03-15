@@ -60,8 +60,6 @@ const ProtectedRoute = ({ role }: { role: "admin" | "user" }) => {
       </div>
     );
 
-  // if (!authState.isAuthenticated || !authState.user)return null;
-  // if (authState.user.role !== role)return null;
 
   return <Outlet  context={{ user: authState.user }} />;
 };

@@ -1,31 +1,31 @@
-import { useEffect, useState, useContext } from "react";
+import {  useState, useContext } from "react";
 import { Plus } from "lucide-react";
 import Books from "@/components/common/book/Book";
 import BookDetailModal from "@/components/common/book/Bookdetailmodal";
-import { getBooksWithReviews } from "@/services/book.service";
-import { showError } from "@/utils/toast";
-import type { Book } from "@/types/book.type";
+// import { getBooksWithReviews } from "@/services/book.service";
+// import { showError } from "@/utils/toast";
+// import type { Book } from "@/types/book.type";
 import type { User } from "@/types/user.type";
 import { BooksContext } from "@/context/BookContext";
 import AddBooksModal from "./AddBook";
 
 const BooksDetails = ({ user }: { user: User }) => {
-  const [books, setBooks] = useState<Book[]>([]);
+  // const [books, setBooks] = useState<Book[]>([]);
   const [addModalOpen, setAddModalOpen] = useState(false);
 
   const { setSelectedBook, isModalOpen, setIsModalOpen } = useContext(BooksContext);
 
-  useEffect(() => {
-    const fetchBooks = async () => {
-      try {
-        const res = await getBooksWithReviews(1);
-        setBooks(res.data.books);
-      } catch (error) {
-        showError("Failed to fetch books");
-      }
-    };
-    fetchBooks();
-  }, []);
+  // useEffect(() => {
+    // const fetchBooks = async () => {
+      // try {
+        // const res = await getBooksWithReviews(1);
+        // setBooks(res.data.books);
+      // } catch (error) {
+        // showError("Failed to fetch books");
+      // }
+    // };
+    // fetchBooks();
+  // }, []);
 
   return (
     <div className="flex flex-col gap-6 w-full">
