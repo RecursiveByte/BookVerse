@@ -1996,3 +1996,22 @@
 {"level":40,"time":1773589091376,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
 {"level":30,"time":1773589103926,"pid":27376,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
 {"level":30,"time":1773589103926,"pid":27376,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773593188605,"pid":10872,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":30,"time":1773593207403,"pid":10872,"hostname":"Rezus-II","msg":"User logged out"}
+{"level":40,"time":1773593207415,"pid":10872,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773593208685,"pid":10872,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773593208902,"pid":10872,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773593210157,"pid":10872,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773593210157,"pid":10872,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773593211918,"pid":10872,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773593211919,"pid":10872,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773593213152,"pid":10872,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1773593224688,"pid":10872,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773593224689,"pid":10872,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773593265235,"pid":10872,"hostname":"Rezus-II","msg":"User logged out"}
+{"level":40,"time":1773593265256,"pid":10872,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773593267318,"pid":10872,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773593268788,"pid":10872,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773593269793,"pid":10872,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1773593279200,"pid":10872,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
+{"level":30,"time":1773593279200,"pid":10872,"hostname":"Rezus-II","msg":"admin logged in successfully: admin@bookverse.com"}
