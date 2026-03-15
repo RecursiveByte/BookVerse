@@ -26,7 +26,14 @@ app.use('/api/review',reviewRouter);
 app.use('/api/books',bookRouter);
 
 
+
+
 const PORT = process.env.PORT || 5000;
+
+
+app.get("/", (req, res) => {
+  res.status(200).json({ status: "ok", message: "BookVerse API is running" });
+});
 
 app.listen(PORT, async () => {
   console.log(`Server running on http://localhost:${PORT}`);
