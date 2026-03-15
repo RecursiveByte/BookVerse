@@ -18,14 +18,15 @@ const UserLogin = () => {
   });
 
 
-  const {  toDashboard, toForgotPassword, toRegister } = useAppNavigate();
+  const {  toForgotPassword, toRegister } = useAppNavigate();
 
   const googleLogin = useGoogleLogin({
     onSuccess: async (codeResponse) => {
       try {
         await googleLoginUser(codeResponse.code);
         showSuccess("Logged in successfully!");
-        toDashboard();
+      window.location.href = "/userDashboard";
+
       } catch (error: any) {
         showError(error.response?.data?.message || "Google login failed");
       }
@@ -52,7 +53,8 @@ const UserLogin = () => {
       setIsLoginClicked(true)
       await loginUser({ email: formData.email, password: formData.password });
       showSuccess("Logged in successfully!");
-      toDashboard();
+      // toDashboard();
+      window.location.href = "/userDashboard";
     } catch (error: any) {
       showError(error.response?.data?.message || "Invalid credentials");
     }finally{

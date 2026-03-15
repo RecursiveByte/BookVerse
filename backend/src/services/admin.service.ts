@@ -99,6 +99,69 @@ class AdminService {
       where: { id: bookId },
     });
   }
+  async getAllUsers(): Promise<{ name: string; email: string }[]> {
+    return await prisma.user.findMany({
+      select: {
+        name: true,
+        email: true,
+      },
+    });
+  }
+
+  async deleteUser(email: string): Promise<void> {
+    const existingUser = await prisma.user.findUnique({
+      where: { email },
+    });
+  
+    if (!existingUser) {
+      throw new Error("User not found");
+    }
+  
+    await prisma.user.delete({
+      where: { email },
+    });
+  }
+
+  async getAllReviews(): Promise<{ id: number; book_id: number; rating: number | null; comment: string | null; user: { email: string } }[]> {
+    return await prisma.review.findMany({
+      select: {
+        id: true,
+        book_id: true,
+        rating: true,
+        comment: true,
+        user: {
+          select: {
+            email: true,
+          },
+        },
+      },
+    });
+  }
+
+  async getStats() {
+    const [totalUsers, totalBooks, totalReviews, recentBooks, recentReviews] = await Promise.all([
+      prisma.user.count(),
+      prisma.book.count(),
+      prisma.review.count(),
+      prisma.book.findMany({
+        orderBy: { createdAt: "desc" },
+        take: 4,
+        select: { title: true, author: true, createdAt: true },
+      }),
+      prisma.review.findMany({
+        orderBy: { createdAt: "desc" },
+        take: 4,
+        select: {
+          rating: true,
+          createdAt: true,
+          book: { select: { title: true } },
+          user: { select: { email: true } },
+        },
+      }),
+    ]);
+  
+    return { totalUsers, totalBooks, totalReviews, recentBooks, recentReviews };
+  }
 }
 
 export const adminService = new AdminService();

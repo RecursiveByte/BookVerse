@@ -1,152 +1,233 @@
+// import type { FC } from "react";
+// import { useState, useEffect, useContext, useRef } from "react";
+// import type { Book } from "@/types/book.type";
+// import GlowBackground from "@/components/common/Glowbackground";
+// import { getBooksWithReviews, getBooksCount } from "@/services/book.service";
+// import BooksGridSkeleton from "./BooksGridSkeleton";
+// import BooksHeader from "./BooksHeader";
+// import BooksGrid from "./BooksGrid";
+// import BooksPagination from "./BooksPagination";
+// import { BooksContext } from "@/context/BookContext";
+
+// interface BooksProps {
+//   isAdmin?: boolean;
+// }
+
+// const PAGE_SIZE = 8;
+// const FETCH_SIZE = 24;
+
+// const Books: FC<BooksProps> = ({ isAdmin = false }) => {
+//   const { currBooks, setCurrBooks } = useContext(BooksContext);
+
+//   const [page, setPage] = useState(1);
+//   const [loading, setLoading] = useState(false);
+//   const [lastPage, setLastPage] = useState<number | null>(null);
+
+//   const allBooks = useRef<Book[]>([]);
+//   const fetchedUpTo = useRef(0);
+//   const initialized = useRef(false);
+
+//   const fetchBooks = async (fetchPage: number) => {
+//     setLoading(true);
+//     try {
+//       const res = await getBooksWithReviews(fetchPage);
+//       const books: Book[] = res.data?.books ?? [];
+//       allBooks.current = [...allBooks.current, ...books];
+//       fetchedUpTo.current = fetchPage;
+//     } catch (err) {
+//       console.error("Failed to fetch books", err);
+//     } finally {
+//       setLoading(false);
+//     }
+//   };
+
+//   useEffect(() => {
+//     const init = async () => {
+//       const res = await getBooksCount();
+//       setLastPage(res.data.lastPage);
+//       await fetchBooks(1);
+//       setCurrBooks(allBooks.current.slice(0, PAGE_SIZE));
+//       initialized.current = true;
+//     };
+//     init();
+//   }, []);
+
+//   useEffect(() => {
+//     if (!initialized.current) return;
+
+//     const startIdx = (page - 1) * PAGE_SIZE;
+//     const endIdx = startIdx + PAGE_SIZE;
+//     const needFetchPage = Math.ceil(endIdx / FETCH_SIZE);
+
+//     const loadAndSet = async () => {
+//       if (needFetchPage > fetchedUpTo.current) {
+//         await fetchBooks(needFetchPage);
+//       }
+//       setCurrBooks(allBooks.current.slice(startIdx, endIdx));
+//     };
+
+//     loadAndSet();
+//   }, [page]);
+
+//   const handleNext = () => {
+//     if (page === lastPage) return;
+//     setPage((p) => p + 1);
+//   };
+
+//   const handlePrev = () => {
+//     if (page === 1) return;
+//     setPage((p) => p - 1);
+//   };
+
+//   return (
+//     <div className="w-full min-h-screen px-10 lg:px-20 py-20 bg-[hsl(var(--background))] text-[hsl(var(--foreground))]">
+//       <GlowBackground gridSize="50px" />
+
+//       <div className="relative z-10 w-full min-h-full mx-auto">
+//         <BooksHeader currBooksLenght={currBooks.length} />
+
+//         {loading ? (
+//           <BooksGridSkeleton count={PAGE_SIZE} />
+//         ) : (
+//           <BooksGrid
+//             books={currBooks}
+//             isAdmin={isAdmin}
+//           />
+//         )}
+
+//         <BooksPagination
+//           page={page}
+//           lastPage={lastPage}
+//           loading={loading}
+//           handlePrev={handlePrev}
+//           handleNext={handleNext}
+//         />
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Books;
+
+
 import type { FC } from "react";
-import { useState, useEffect, useContext } from "react";
+import { useState, useEffect, useContext, useRef } from "react";
 import type { Book } from "@/types/book.type";
 import GlowBackground from "@/components/common/Glowbackground";
 import { getBooksWithReviews, getBooksCount } from "@/services/book.service";
-
 import BooksGridSkeleton from "./BooksGridSkeleton";
 import BooksHeader from "./BooksHeader";
 import BooksGrid from "./BooksGrid";
 import BooksPagination from "./BooksPagination";
-
 import { BooksContext } from "@/context/BookContext";
 
 interface BooksProps {
-  onBookClick?: (book: Book) => void;
   isAdmin?: boolean;
 }
 
 const PAGE_SIZE = 8;
 const FETCH_SIZE = 24;
-const PAGES_PER_FETCH = FETCH_SIZE / PAGE_SIZE;
+const DEBOUNCE_MS = 400;
 
-const Books: FC<BooksProps> = ({
-  onBookClick,
-  isAdmin = false,
-}) => {
-
-  const {currBooks,setCurrBooks} = useContext(BooksContext)
+const Books: FC<BooksProps> = ({ isAdmin = false }) => {
+  const { currBooks, setCurrBooks } = useContext(BooksContext);
 
   const [page, setPage] = useState(1);
-  const [upcomingBooks, setUpcomingBooks] = useState<Book[]>([]);
-  const [prevUp, setPrevUp] = useState<Book[]>([]);
   const [loading, setLoading] = useState(false);
-  const [i, setI] = useState(0);
-  const [j, setJ] = useState(PAGE_SIZE);
-  const [isPrev, setIsPrev] = useState(false);
   const [lastPage, setLastPage] = useState<number | null>(null);
+  const [search, setSearch] = useState("");
+  const [debouncedSearch, setDebouncedSearch] = useState("");
 
-  const fetchBooks = async (pageNumber: number) => {
+  const allBooks = useRef<Book[]>([]);
+  const fetchedUpTo = useRef(0);
+  const initialized = useRef(false);
+
+  const resetCache = () => {
+    allBooks.current = [];
+    fetchedUpTo.current = 0;
+    initialized.current = false;
+    setPage(1);
+    setCurrBooks([]);
+  };
+
+  const fetchBooks = async (fetchPage: number, searchTerm?: string) => {
+    setLoading(true);
     try {
-      setLoading(true);
-      const res = await getBooksWithReviews(pageNumber);
+      const res = await getBooksWithReviews(fetchPage, searchTerm);
       const books: Book[] = res.data?.books ?? [];
-      return books;
+      allBooks.current = [...allBooks.current, ...books];
+      fetchedUpTo.current = fetchPage;
     } catch (err) {
       console.error("Failed to fetch books", err);
-      return [];
     } finally {
       setLoading(false);
     }
   };
 
   useEffect(() => {
-    const fetchBooksCount = async () => {
-      const res = await getBooksCount();
+    const timer = setTimeout(() => {
+      setDebouncedSearch(search);
+    }, DEBOUNCE_MS);
+    return () => clearTimeout(timer);
+  }, [search]);
+
+  useEffect(() => {
+    resetCache();
+
+    const init = async () => {
+      const res = await getBooksCount(debouncedSearch || undefined);
       setLastPage(res.data.lastPage);
+      await fetchBooks(1, debouncedSearch || undefined);
+      setCurrBooks(allBooks.current.slice(0, PAGE_SIZE));
+      initialized.current = true;
     };
-    fetchBooksCount();
-  }, []);
+    init();
+  }, [debouncedSearch]);
 
   useEffect(() => {
-    const loadInitialBooks = async () => {
-      let books: Book[] = [];
+    if (!initialized.current) return;
 
-      if (page % PAGES_PER_FETCH === 1) {
-        books = await fetchBooks(Math.floor(page / PAGES_PER_FETCH));
-        setPrevUp(books);
-      }
+    const startIdx = (page - 1) * PAGE_SIZE;
+    const endIdx = startIdx + PAGE_SIZE;
+    const needFetchPage = Math.ceil(endIdx / FETCH_SIZE);
 
-      if (page % PAGES_PER_FETCH === 0) {
-        books = await fetchBooks(Math.floor(page / PAGES_PER_FETCH + 1));
-        setUpcomingBooks(books);
+    const loadAndSet = async () => {
+      if (needFetchPage > fetchedUpTo.current) {
+        await fetchBooks(needFetchPage, debouncedSearch || undefined);
       }
-
-      if (page === 1) {
-        books = await fetchBooks(1);
-        setCurrBooks(books);
-      }
+      setCurrBooks(allBooks.current.slice(startIdx, endIdx));
     };
 
-    if (
-      page % PAGES_PER_FETCH === 0 ||
-      page === 1 ||
-      page % PAGES_PER_FETCH === 1
-    ) {
-      loadInitialBooks();
-    }
+    loadAndSet();
   }, [page]);
-
-  useEffect(() => {
-    if (loading) return;
-
-    if (page !== 1 && (page - 1) % PAGES_PER_FETCH === 0) {
-      if (!isPrev) {
-        setCurrBooks(upcomingBooks);
-        setI(0);
-        setJ(PAGE_SIZE);
-      }
-    }
-
-    if (page !== 1 && page % PAGES_PER_FETCH === 0) {
-      if (isPrev) {
-        setCurrBooks(prevUp);
-        let size = prevUp.length;
-        setI(size - PAGE_SIZE);
-        setJ(size);
-      }
-    }
-  }, [page, loading]);
-
-  const visibleBooks = currBooks.slice(i, j);
 
   const handleNext = () => {
     if (page === lastPage) return;
-
-    if (currBooks.length > 0) setPage((p) => p + 1);
-
-    const nextI = i + PAGE_SIZE;
-    setI(nextI);
-    setJ(Math.min(nextI + PAGE_SIZE, currBooks.length));
-    setIsPrev(false);
+    setPage((p) => p + 1);
   };
 
   const handlePrev = () => {
     if (page === 1) return;
-
     setPage((p) => p - 1);
-    setIsPrev(true);
-
-    const prevI = i - PAGE_SIZE;
-    setI(prevI);
-    setJ(prevI + PAGE_SIZE);
   };
 
   return (
-
     <div className="w-full min-h-screen px-10 lg:px-20 py-20 bg-[hsl(var(--background))] text-[hsl(var(--foreground))]">
       <GlowBackground gridSize="50px" />
 
       <div className="relative z-10 w-full min-h-full mx-auto">
-        <BooksHeader currBooksLenght={visibleBooks.length} />
+        <BooksHeader
+          currBooksLenght={currBooks.length}
+          search={search}
+          onSearchChange={setSearch}
+        />
 
         {loading ? (
           <BooksGridSkeleton count={PAGE_SIZE} />
         ) : (
           <BooksGrid
-          books={visibleBooks}
-          onBookClick={onBookClick}
-          isAdmin={isAdmin}
+            books={currBooks}
+            isAdmin={isAdmin}
           />
         )}
 
@@ -156,7 +237,7 @@ const Books: FC<BooksProps> = ({
           loading={loading}
           handlePrev={handlePrev}
           handleNext={handleNext}
-          />
+        />
       </div>
     </div>
   );

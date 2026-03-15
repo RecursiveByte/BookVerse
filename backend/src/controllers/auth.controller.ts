@@ -37,6 +37,7 @@ export const register = async (req: Request, res: Response) => {
 
 export const login = async (req: Request, res: Response) => {
   try {
+    console.log(req.body)
     const validatedData = loginSchema.parse(req.body);
     const result = await authService.loginUser(validatedData);
     setAuthCookie(res, result.token);
@@ -138,9 +139,9 @@ export const logout = (req: Request, res: Response) => {
   res.clearCookie('token', {
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
-    sameSite: 'none'
+    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
   });
-  
+
   logger.info('User logged out');
   return res.status(HTTP_STATUS.OK).json({ message: 'Logout successful' });
 };

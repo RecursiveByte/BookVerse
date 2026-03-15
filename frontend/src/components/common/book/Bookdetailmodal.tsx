@@ -27,7 +27,6 @@ const BookDetailModal = ({
   
     try {
       await deleteBook(selectedBook.id);
-      console.log(selectedBook,"books delete")
       setCurrBooks(prev=>prev.filter(ele => ele.id != selectedBook.id))
 
       onClose(); 

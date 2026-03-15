@@ -32,7 +32,6 @@ const AddReviewModal = ({ onClose }: { onClose: () => void }) => {
  
     try {
 
-      console.log(selectedBook)
       const [reviewRes, userRes] = await Promise.all([
         addReview({
           bookId: selectedBook.id,

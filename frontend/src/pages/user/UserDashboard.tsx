@@ -1,4 +1,4 @@
-import { useContext, useState, type FC } from "react";
+import { useContext, type FC } from "react";
 import Books from "@/components/common/book/Book";
 import BookDetailModal from "@/components/common/book/Bookdetailmodal";
 // import type { Book } from "@/types/book.type";

@@ -22,7 +22,6 @@ const ReviewsSection = ({
   const handleDeleteReview = async (reviewId: number) => {
     try {
 
-      // console.log(reviewId)
       await deleteReview(reviewId);
       setSelectedBook((prev) => {
         if (!prev) return null;

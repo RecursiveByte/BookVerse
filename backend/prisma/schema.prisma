@@ -31,8 +31,9 @@ model Book {
   updatedAt    DateTime @updatedAt
 
   reviews      Review[]
-
+  
   @@unique([title, author])
+  @@index([title])
   @@map("Books")
 }
 

@@ -24,3 +24,6 @@ export const verifyOtpAndReset = (data: { email: string; otp: string; newPasswor
 
 export const checkAuth = () =>
   axios.get<{ isAuthenticated: boolean; user: { id: string; role: string } }>("/auth/check-auth");
+
+export const logout = () =>
+  axios.post("/auth/logout");

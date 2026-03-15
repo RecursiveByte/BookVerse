@@ -33,7 +33,7 @@ const BooksDetails = ({ user }: { user: User }) => {
       <div className="flex items-center justify-between px-6 pt-6">
         <div>
           <h2 className="text-xl font-bold text-[hsl(var(--foreground))]">Books</h2>
-          <p className="text-sm text-[hsl(var(--muted-foreground))]">{books.length} total books</p>
+          {/* <p className="text-sm text-[hsl(var(--muted-foreground))]">{books.length} total books</p> */}
         </div>
         <button
           onClick={() => setAddModalOpen(true)}
@@ -44,7 +44,7 @@ const BooksDetails = ({ user }: { user: User }) => {
       </div>
 
       <Books
-        onBookClick={() => setIsModalOpen(true)}
+        // onBookClick={() => setIsModalOpen(true)}
       />
 
       {isModalOpen && (

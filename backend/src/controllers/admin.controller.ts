@@ -5,8 +5,6 @@ import logger from "../utils/logger";
 import HTTP_STATUS from "../utils/statusCodes";
 import { z } from "zod";
 
-
-
 export const uploadBooksFromCSV = async (req: Request, res: Response) => {
   try {
     const user = (req as any).user;
@@ -39,7 +37,6 @@ export const uploadBooksFromCSV = async (req: Request, res: Response) => {
         message: "Book already exists in the database",
       });
 
-      // console.log(error)
     return res.status(HTTP_STATUS.INTERNAL_SERVER_ERROR).json({
       message: "Server error",
       error: error.message,
@@ -51,11 +48,11 @@ export const editBook = async (req: Request, res: Response) => {
   try {
     const user = (req as any).user;
 
-    // if (user?.role !== "admin") {
-      // return res
-        // .status(HTTP_STATUS.FORBIDDEN)
-        // .json({ message: "Only admin can edit books" });
-    // }
+    if (user?.role !== "admin") {
+      return res
+        .status(HTTP_STATUS.FORBIDDEN)
+        .json({ message: "Only admin can edit books" });
+    }
 
     const validatedData = editBookSchema.parse(req.body);
 
@@ -124,6 +121,118 @@ export const deleteBook = async (req: Request, res: Response) => {
         .json({ message: error.message });
     }
 
+    return res.status(HTTP_STATUS.INTERNAL_SERVER_ERROR).json({
+      message: "Server error",
+      error: error.message,
+    });
+  }
+};
+
+
+export const getAllUsers = async (req: Request, res: Response) => {
+  try {
+    const user = (req as any).user;
+
+    if (user.role !== "admin") {
+      return res
+        .status(HTTP_STATUS.FORBIDDEN)
+        .json({ message: "Only admins can view users" });
+    }
+
+    const users = await adminService.getAllUsers();
+
+    return res.status(HTTP_STATUS.OK).json({ users });
+  } catch (error: any) {
+    logger.error({ err: error }, "Error in getAllUsers controller");
+    return res.status(HTTP_STATUS.INTERNAL_SERVER_ERROR).json({
+      message: "Server error",
+      error: error.message,
+    });
+  }
+
+  
+};
+
+
+export const getAllReviews = async (req: Request, res: Response) => {
+  try {
+    const user = (req as any).user;
+
+    if (user.role !== "admin") {
+      return res
+        .status(HTTP_STATUS.FORBIDDEN)
+        .json({ message: "Only admins can view reviews" });
+    }
+
+    const reviews = await adminService.getAllReviews();
+
+    return res.status(HTTP_STATUS.OK).json({ reviews });
+  } catch (error: any) {
+    logger.error({ err: error }, "Error in getAllReviews controller");
+    return res.status(HTTP_STATUS.INTERNAL_SERVER_ERROR).json({
+      message: "Server error",
+      error: error.message,
+    });
+  }
+};
+
+
+export const deleteUser = async (req: Request, res: Response) => {
+  try {
+    const user = (req as any).user;
+
+    if (user.role !== "admin") {
+      return res
+        .status(HTTP_STATUS.FORBIDDEN)
+        .json({ message: "Only admins can delete users" });
+    }
+
+    const { email } = req.body;
+
+    if (!email) {
+      return res
+        .status(HTTP_STATUS.BAD_REQUEST)
+        .json({ message: "Email is required" });
+    }
+
+    await adminService.deleteUser(email);
+
+    logger.info(`User ${email} deleted successfully`);
+
+    return res.status(HTTP_STATUS.OK).json({ message: "User deleted successfully" });
+  } catch (error: any) {
+    logger.error({ err: error }, "Error in deleteUser controller");
+
+    if (error.message === "User not found") {
+      return res
+        .status(HTTP_STATUS.NOT_FOUND)
+        .json({ message: error.message });
+    }
+
+    return res.status(HTTP_STATUS.INTERNAL_SERVER_ERROR).json({
+      message: "Server error",
+      error: error.message,
+    });
+  }
+
+  
+};
+
+export const getStats = async (req: Request, res: Response) => {
+  try {
+    const user = (req as any).user;
+
+    if (user.role !== "admin") {
+      return res
+        .status(HTTP_STATUS.FORBIDDEN)
+        .json({ message: "Only admins can view stats" });
+    }
+
+    const stats = await adminService.getStats();
+
+    return res.status(HTTP_STATUS.OK).json(stats);
+  } catch (error: any) {
+    logger.error({ err: error }, "Error in getStats controller");
     return res.status(HTTP_STATUS.INTERNAL_SERVER_ERROR).json({
       message: "Server error",
       error: error.message,

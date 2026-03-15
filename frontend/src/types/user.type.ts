@@ -6,3 +6,12 @@ export interface UserRes {
     email: string;
     role: "admin" | "user";
   }
+
+
+  export interface StatsResponse {
+    totalUsers: number;
+    totalBooks: number;
+    totalReviews: number;
+    recentBooks: { title: string; author: string; createdAt: string }[];
+    recentReviews: { rating: number | null; createdAt: string; book: { title: string }; user: { email: string } }[];
+  }
