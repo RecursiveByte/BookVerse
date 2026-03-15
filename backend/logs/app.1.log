@@ -1988,3 +1988,11 @@
 {"level":40,"time":1773587018930,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
 {"level":40,"time":1773587071882,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
 {"level":40,"time":1773587227968,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1773589052156,"pid":20088,"hostname":"Rezus-II","msg":"Database Connected"}
+{"level":40,"time":1773589073896,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773589073900,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773589089864,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773589089866,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":40,"time":1773589091376,"pid":27376,"hostname":"Rezus-II","msg":"Authentication failed: No token provided"}
+{"level":30,"time":1773589103926,"pid":27376,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
+{"level":30,"time":1773589103926,"pid":27376,"hostname":"Rezus-II","msg":"Google login successful: opboy4885@gmail.com"}
