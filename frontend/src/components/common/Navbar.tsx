@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import Button from "@/components/ui/Button";
 import useAppNavigate from "@/hooks/useAppNavigate";
@@ -9,6 +9,9 @@ import type { UserRes } from "@/types/user.type";
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [user, setUser] = useState<UserRes | null>(null);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
   const navigate = useNavigate();
   const location = useLocation();
   const { toHome, toRegister, toLogin } = useAppNavigate();
@@ -25,11 +28,22 @@ const Navbar: React.FC = () => {
     fetchUser();
   }, [location.pathname]);
 
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setDropdownOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   const handleLogout = async () => {
     try {
       await logout();
     } catch {}
     setUser(null);
+    setDropdownOpen(false);
     toLogin();
   };
 
@@ -42,20 +56,31 @@ const Navbar: React.FC = () => {
           <span className="w-2.5 h-2.5 bg-[#00e676] rounded-sm inline-block mb-0.5 ml-1" />
         </div>
 
-        <div className="hidden sm:flex items-center gap-3">
+        <div className="hidden sm:flex items-center gap-3 relative">
           {user ? (
-            <div className="flex items-center gap-3">
+            <div ref={dropdownRef} className="relative">
               <div
-                className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold"
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+                className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold cursor-pointer transition hover:scale-105"
                 style={{
-                  background: "hsl(142,70%,45%,0.15)",
-                  border: "1px solid hsl(142,70%,45%,0.3)",
-                  color: "hsl(142,70%,55%)",
+                  background: "linear-gradient(135deg, #00e67633, #00c85333)",
+                  border: "1px solid #00e67655",
+                  color: "#00e676",
                 }}
               >
-                {user.name[0].toUpperCase()}
+                {user?.name?.[0]?.toUpperCase() || "U"}
               </div>
-              <Button label="Logout" variant="secondary" onClick={handleLogout} />
+
+              {dropdownOpen && (
+                <div className="absolute right-0 mt-2 w-36 bg-[#111] border border-[#2a2a2a] rounded-xl shadow-lg overflow-hidden">
+                  <button
+                    onClick={handleLogout}
+                    className="w-full text-left px-4 py-3 text-sm text-red-400 hover:bg-[#1a1a1a] transition"
+                  >
+                    Logout
+                  </button>
+                </div>
+              )}
             </div>
           ) : (
             <>
