@@ -9,7 +9,7 @@ export const authRateLimiter = rateLimit({
   legacyHeaders: false,
 
   handler: (req: Request, res: Response) => {
-    console.log("Blocked IP:", req.ip);
+   
     logger.info("blocked IP")
     
     res.status(429).json({
