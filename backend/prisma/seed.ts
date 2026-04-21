@@ -6,8 +6,7 @@ import { seedReviews } from "./seeds/seedReviews";
 async function main() {
   // await seedUsers();
   // await seedBooks();
-  await seedReviews();
-  console.log("Seeding completed successfully");
+  // await seedReviews();
 }
 
 try {
