@@ -2,8 +2,8 @@ import { prisma } from "../../src/lib/prisma";
 import bcrypt from "bcryptjs";
 
 export async function seedUsers() {
-  const adminPassword = await bcrypt.hash("Admin@123", 10);
-  const johnPassword = await bcrypt.hash("John@123", 10);
+  const adminPassword = await bcrypt.hash("", 10);
+  const johnPassword = await bcrypt.hash("", 10);
 
   await prisma.user.createMany({
     data: [
