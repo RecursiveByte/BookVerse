@@ -3,7 +3,8 @@ node_modules
 .env
 /node_modules
 /ca.pem
-/src/generated/prisma
+
+prisma/seeds/
 
 /generated/prisma
 
