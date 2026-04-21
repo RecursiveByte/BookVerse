@@ -6,7 +6,7 @@ import { seedReviews } from "./seeds/seedReviews";
 async function main() {
   // await seedUsers();
   // await seedBooks();
-  await seedReviews();
+  // await seedReviews();
 }
 
 try {
