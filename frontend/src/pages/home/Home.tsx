@@ -24,7 +24,7 @@ const Home = () => {
 
         <p className="text-[hsl(var(--muted-foreground))] text-base sm:text-lg max-w-xl mb-10 leading-relaxed">
           Browse our collection of books, explore real reviews from real
-          readers, and discover your next favourite read — all in one place.
+          readers, and discover your next favourite read all in one place.
         </p>
 
         <div className="flex items-center gap-3">
