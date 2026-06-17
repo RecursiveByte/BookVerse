@@ -16,7 +16,6 @@ BookVerse is a full-stack book review platform where users can discover books, w
 - Rate limiting on auth endpoints
 - Input validation with Zod
 - Debounced backend search with PostgreSQL indexing
-- Virtual list rendering for large datasets
 - Smart pagination with client-side fetch caching
 - Bulk book import via CSV
 - Admin dashboard with stats, user management, book management, and review management
