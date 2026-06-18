@@ -20,12 +20,14 @@ const Navbar: React.FC = () => {
     const fetchUser = async () => {
       try {
         const res = await getUserDetails();
+
         setUser(res);
       } catch {
         setUser(null);
       }
     };
     fetchUser();
+
   }, [location.pathname]);
 
   useEffect(() => {
