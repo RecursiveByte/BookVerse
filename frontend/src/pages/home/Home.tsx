@@ -1,9 +1,14 @@
 import useAppNavigate from "@/hooks/useAppNavigate";
 import Button from "@/components/ui/Button";
 import GlowBackground from "@/components/common/Glowbackground";
+import { useBackendStatus } from "@/hooks/useBackendStatus";
+import Announcement from "@/components/home/Announcement";
+import { BACKEND_QUOTA_ANNOUNCEMENT,BACKEND_CONNECTING_ANNOUNCEMENT } from "@/constants/announcement";
 
 const Home = () => {
   const { toLogin, toRegister } = useAppNavigate();
+  const { isOnline,isConnecting } = useBackendStatus();
+
 
   return (
     <div className="min-h-screen bg-[hsl(var(--background))] text-[hsl(var(--foreground))] relative overflow-hidden flex flex-col">
@@ -12,22 +17,9 @@ const Home = () => {
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-150 h-75 rounded-full bg-[hsl(var(--primary)/0.12)] blur-[120px] pointer-events-none" />
 
       <section className="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6">
-        <div className="mb-2 mt-20 lg:mt-0 max-w-3xl rounded-xl border border-[hsl(var(--primary)/0.3)] bg-[hsl(var(--primary)/0.08)] px-4 py-3 text-sm text-[hsl(var(--foreground))]">
-          <span className="font-semibold text-[hsl(var(--primary))]">
-            NOTE:
-          </span>{" "}
-          The backend service is hosted on a free-tier platform, and the monthly
-          quota has been exhausted. Please refer to the Loom video for a
-          complete demonstration.
-          <a
-            href="https://www.loom.com/share/e28b1a0bfac2406da3af95acb37d788f"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ml-2 font-medium text-[hsl(var(--primary))] hover:underline"
-          >
-            Watch Demo
-          </a>
-        </div>
+
+     {isConnecting ? <Announcement {...BACKEND_CONNECTING_ANNOUNCEMENT}/> : (!isOnline && <Announcement {...BACKEND_QUOTA_ANNOUNCEMENT}/>)}
+     
 
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[hsl(var(--primary)/0.3)] bg-[hsl(var(--primary)/0.08)] text-[hsl(var(--primary))] text-xs font-medium mb-3 tracking-wide uppercase">
           <span className="w-1.5 h-1.5 rounded-full bg-[hsl(var(--primary))] animate-pulse" />

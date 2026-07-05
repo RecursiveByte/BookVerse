@@ -24,7 +24,6 @@ const AuthRedirector = ({ children }: { children: React.ReactNode }) => {
     verify();
   }, []);
 
-  if (status === "loading") return null;
 
   if (status === "authenticated") {
     if (role === "admin") return <Navigate to={ROUTES.ADMIN_DASHBOARD} replace />;
