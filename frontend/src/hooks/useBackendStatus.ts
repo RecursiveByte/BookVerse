@@ -21,7 +21,7 @@ export function useBackendStatus() {
       if (statusRef.current === "connecting") {
         updateStatus("offline");
       }
-    }, 30_000);
+    }, 60_000);
 
     eventSource.onopen = () => {
       console.log("Connected to backend");
